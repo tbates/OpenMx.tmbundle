@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>mxAlgebra(solve(sqrt(Ident*${1:B})), name="inverse$1")
+mxAlgebra(     inverse$1 %&amp;% $1  , name="${2:stnd$1}") ; # \stnd($1) ;
+</string>
+	<key>name</key>
+	<string>\stnd</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>stnd</string>
+	<key>uuid</key>
+	<string>421B0595-CAD4-46B2-B413-8A708390D84F</string>
+</dict>
+</plist>

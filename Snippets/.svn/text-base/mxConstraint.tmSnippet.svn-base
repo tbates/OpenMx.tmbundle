@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>mxConstraint(${1:${2:A}${3:==}${4:B}}, name = "${5:$1}")</string>
+	<key>name</key>
+	<string>mxConstraint(A==B, "bob")</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>mxc</string>
+	<key>uuid</key>
+	<string>8BADFBF3-5D61-4F94-B4FD-3C4B6BDFEC71</string>
+</dict>
+</plist>

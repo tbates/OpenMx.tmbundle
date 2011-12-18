@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>mxCompare(${1:basel},c(${2:comparison}))</string>
+	<key>name</key>
+	<string>mxCompare(base, comparison)</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>omx</string>
+	<key>uuid</key>
+	<string>4CB4DDCD-C166-4051-BA46-6A59392AE9C6</string>
+</dict>
+</plist>

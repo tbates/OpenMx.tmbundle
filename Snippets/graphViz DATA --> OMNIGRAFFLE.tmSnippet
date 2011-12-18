@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>graphViz_Data(varNames=names(${1:data}), dotFilename="${2:$1.dot}")</string>
+	<key>name</key>
+	<string>graphViz DATA --&gt; OMNIGRAFFLE</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>graph</string>
+	<key>uuid</key>
+	<string>22156C25-D4AC-4F86-990D-DE1AE792C78F</string>
+</dict>
+</plist>

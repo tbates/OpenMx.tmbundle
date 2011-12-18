@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>AddRAMpath &lt;- function(model, path) {
+	# Places path in supermodel and all submodels,
+	# if-and-only-if a model is RAM type and contains
+	# manifest or latent variables for the 'from' and 'to' fields
+	# of the given path.
+	if (is(model, "MxRAMModel")) {
+		from = path$from
+		to   = path$to
+		vars = union(model@manifestVars, model@latentVars)
+		if (all(from %in% vars) &amp;&amp; all(to %in% vars)) {
+			model = mxModel(model, path)
+		}
+	}
+	model@submodels = lapply(model@submodels, pathClobberRecursive, path)
+	return(model)
+}
+
+makeTwinData = function(MZr=c(.6), DZr=c(.45), MZn=100, varNames=c('bmi'), seed=200 ) {
+	# e.g. call:
+	# makeTwinData(MZr=c(.6), DZr=c(.45), MZn=100, varNames=c('bmi'));
+	# MZr=c(.6);
+	# DZr=c(.45);
+	# MZn=100;
+	# varNames=c('bmi');
+	# seed=200;
+	# requires(MASS)
+	# MZr=.5; DZr=.3; MZn=100; varNames=c('Xt1','Xt2'); seed=200
+	nVars = length(varNames)*2;
+	zyg   = rep(c("mz", "dz"), each = MZn);
+
+	for(n in 1:length(MZr)) {
+		r_mx = MZr[n];
+		r_dx = DZr[n];		
+		set.seed(seed); #group 1
+		desiredCovMatrix = matrix(c(1,r_mx,r_mx,1) ,nrow=nvars, ncol=nvars);
+		mzData &lt;- mvrnorm (n=MZn, mu=rep(0,nVars), Sigma= desiredCovMatrix);
+
+		set.seed(seed);#group 2
+		desiredCovMatrix = matrix(c(1,r_dx,r_dx,1) ,nrow=nvars, ncol=nvars);
+		dzData &lt;- mvrnorm (n=MZn, mu=rep(0,nVars), Sigma= desiredCovMatrix);
+	}	
+	fullVarNames = paste(varNames,rep(1:2,nVars/2), sep="")
+	dataOut      = data.frame(zyg)
+	xy      = rbind(mzData,dzData);
+	dataOut = cbind(dataOut,xy);
+
+	# xy = data.frame(xy); 
+	# xy$zyg&lt;-zyg;
+	names(dataOut) &lt;- c("zyg", fullVarNames)
+	# return(fullVarNames)
+	return(dataOut);
+}</string>
+	<key>name</key>
+	<string>library</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>uuid</key>
+	<string>DBB5C787-70E2-479E-BE7F-513D4FB547A5</string>
+</dict>
+</plist>

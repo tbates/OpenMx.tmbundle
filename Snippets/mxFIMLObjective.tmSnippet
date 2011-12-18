@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>mxFIMLObjective(covariance="${1:expectedCov}"), means="${2:expectedMeans}"), dimnames = NA, thresholds = NA)
+</string>
+	<key>name</key>
+	<string>mxFIMLObjective</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>mxo</string>
+	<key>uuid</key>
+	<string>F332F28F-26B2-4C1A-9EE3-968C2A5D8E92</string>
+</dict>
+</plist>

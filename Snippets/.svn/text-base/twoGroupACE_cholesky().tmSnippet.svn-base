@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>fit${1:1} = makeACE_2Group("ACE", selDVs=${2:selDVs}, dzData=${3:dzData}, mzData=${4:mzData}, nSib=${5:nSib},dzr=${6:.5});
+fit$1   = mxRun(fit$1 ${7:, intervals=${8:F}});
+summaryACEFit(fit$1, ${9:, accuracy=${10:3}}, dotFilename="${11:name}"${12:,returnStd=F})</string>
+	<key>name</key>
+	<string>makeACE_2Group()</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>genepi</string>
+	<key>uuid</key>
+	<string>8116DC80-BBBE-49F2-B774-CAC13A8DA9D6</string>
+</dict>
+</plist>

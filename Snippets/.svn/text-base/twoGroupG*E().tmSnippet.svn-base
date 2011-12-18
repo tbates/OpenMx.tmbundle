@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${2:GbyE}fit${3:1} = makeGxE_2Group("${1:full}", selDVs=selDVs, selDefs=selDefs, dzData=dzData, mzData=mzData, nSib=nSib);
+$2fit$3   = mxRun($2fit$3, ${4:intervals=F});
+# summaryIndependentFit($2fit$3, selDVs, accuracy=3, dotFilename="GbyE_$3.dot", returnStd= F);
+
+omxGetParameters($2fit$3)
+genEpi_PlotUnivariateModeration($2fit$3, selDefs, mzData, dzData, location="topleft")
+</string>
+	<key>name</key>
+	<string>makeGxE_2Group()</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>genepi</string>
+	<key>uuid</key>
+	<string>A9EF09A4-7D92-4A53-9583-21015BFCA4A6</string>
+</dict>
+</plist>

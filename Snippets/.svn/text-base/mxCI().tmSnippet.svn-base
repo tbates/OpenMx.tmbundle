@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>mxCI(c('${1:${2:a}[${3:1},${4:$3}]}')</string>
+	<key>name</key>
+	<string>mxCI(c('top.a', 'top.b[1,2]'))</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>mxc</string>
+	<key>uuid</key>
+	<string>A1C06E96-41FC-4B3C-BD5A-689D7F60E432</string>
+</dict>
+</plist>

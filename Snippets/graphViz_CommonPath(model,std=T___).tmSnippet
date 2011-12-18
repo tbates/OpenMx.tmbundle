@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>graphViz_CommonPath(${1:fit},selDVs=${2:selDVs}${3:, dotFilename="${4:Common}.dot"})
+</string>
+	<key>name</key>
+	<string>graphViz_CommonPath(model, selDVs...)</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>genepi</string>
+	<key>uuid</key>
+	<string>56B8C7DA-72D8-4266-B0FF-968423C2884D</string>
+</dict>
+</plist>

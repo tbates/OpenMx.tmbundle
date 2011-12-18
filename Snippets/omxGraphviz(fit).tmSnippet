@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>omxGraphviz(model=${1:fit}, ${2:dotFilename='${3:$1.dot}'})
+system(paste('open' getwd(), '$3')</string>
+	<key>name</key>
+	<string>omxGraphviz(fit)</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>omx</string>
+	<key>uuid</key>
+	<string>CD966474-B076-42AC-9FFA-48655E22A7DC</string>
+</dict>
+</plist>

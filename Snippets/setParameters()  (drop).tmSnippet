@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>model${2:$1} = mxRename(omxSetParameters(fit${1:1}, labels=${3:genEpi_getLabels(fit$1@matrices$c)}, free=F, value = 0),"${4:No common c}")</string>
+	<key>name</key>
+	<string>omxSetParameters()  (drop using getLabels)</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>omx</string>
+	<key>uuid</key>
+	<string>33DBEE96-342D-4801-AF2B-69AE1D48F22F</string>
+</dict>
+</plist>

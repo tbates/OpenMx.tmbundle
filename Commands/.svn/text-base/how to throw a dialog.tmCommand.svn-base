@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/php
+&lt;?php
+// creator: tim.bates@ed.ac.uk 
+// license = GPL
+// Purpose: Takes selected mx matrix like 
+
+
+$applescript = "&lt;&lt;'AS'
+    tell app \"TextMate\"
+        activate
+        choose from list { \"red\", \"green\", \"blue\" } \\
+            with title \"Pick a Color\" \\
+            with prompt \"What color do you like?\"
+    end tell
+AS)";
+
+// echo $applescript;
+
+$shell = "res=\$(osascript $applescript
+echo \$res
+osascript -e 'tell app \"TextMate\" to activate' &amp;&gt;/dev/null &amp;";
+
+$output = shell_exec($shell);
+echo($output);
+
+?&gt;
+</string>
+	<key>input</key>
+	<string>none</string>
+	<key>keyEquivalent</key>
+	<string>^~@m</string>
+	<key>name</key>
+	<string>how to throw a dialog</string>
+	<key>output</key>
+	<string>insertAsSnippet</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>uuid</key>
+	<string>5D4A7C93-7AE5-4A7C-8CF7-319E414302A6</string>
+</dict>
+</plist>

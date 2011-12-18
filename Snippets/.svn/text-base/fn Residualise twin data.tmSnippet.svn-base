@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>covDat = ${1:twinData}[,c('age', 'sex_T1')]
+zyg = as.data.frame($[,c('zyg')]) names(zyg)&lt;-c('zyg')
+IV_data = $1[,selVarsT1]
+IV_res1 = sapply(IV_data, function(y) { residuals(lm(y ~ . -1, covDat, na.action=na.exclude))} ); # head(IV_res)
+
+covDat = $1[,c('age', 'sex_T2')]
+IV_data = $1[,selVarsT2]
+IV_res2 = sapply(IV_data, function(y) { residuals(lm(y ~ . -1,covDat, na.action=na.exclude))} ); # head(IV_res2)
+
+residualizedTwinData = cbind(IV_res1,IV_res2, zyg) # residualised variables</string>
+	<key>name</key>
+	<string>fn Residualise twin data</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>residtwin</string>
+	<key>uuid</key>
+	<string>EB616F95-D9C4-4014-A070-22CD53BE05A9</string>
+</dict>
+</plist>

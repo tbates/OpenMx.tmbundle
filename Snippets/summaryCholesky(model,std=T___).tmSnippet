@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>summaryACEFit(${1:fit},selDVs=${2:selDVs}${3:, accuracy=${4:3}}, dotFilename="${5:choleskyACE.dot}"${6:,returnStd=T}${7:,showRg=F}${8:,extended=F})</string>
+	<key>name</key>
+	<string>summaryCholesky(model, selDVs...)</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>genepi</string>
+	<key>uuid</key>
+	<string>F9DE5EA8-04C9-4BF5-AD88-829E8C34B1A1</string>
+</dict>
+</plist>

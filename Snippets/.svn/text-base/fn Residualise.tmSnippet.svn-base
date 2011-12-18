@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>$1_resid = sapply(${1:IVDat}, function(y) { residuals(lm(y ~ . ,${2:covDat}, na.action=na.omit))} ) ; head($1_resid)
+`# desiredCovMatrix = matrix(c(1, 0, 0, 1) ,nrow=2, ncol=2);
+# xy = mvrnorm (n=100, mu=c(10,0), Sigma= desiredCovMatrix);
+# xy = data.frame(xy); names(xy) &lt;- c("x", "age");
+# xy$age[c(1,3,5,7)] = NA
+# xy$age2 = xy$age^2 ; cor(xy, use="complete.obs")
+# xy$x2   = xy$x;
+# head(xy);
+# varNames &lt;- c("x", "x2")
+# covNames &lt;- c("age", "age2")
+# IVDat = xy[,varNames]
+# covDat = xy[,covNames]`</string>
+	<key>name</key>
+	<string>fn Residualise</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>resid</string>
+	<key>uuid</key>
+	<string>65EB9C41-26F0-4652-B83F-DA46523FF847</string>
+</dict>
+</plist>

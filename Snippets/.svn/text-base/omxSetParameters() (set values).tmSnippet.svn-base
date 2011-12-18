@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>model${2:$1} = omxSetParameters(fit${1:1}, labels=${3:c('a', 'b')}, values = ${4:c(.5,.6)})</string>
+	<key>name</key>
+	<string>omxSetParameters() (set values)</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>omx</string>
+	<key>uuid</key>
+	<string>B02F7F11-13CC-49A9-9ACB-1956663709E2</string>
+</dict>
+</plist>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>$1 = mxModel("${1:test}",
+	mxMatrix("Full", nrow=1, ncol=2, free=T, values=1, name="a"),
+	mxMatrix("Full", nrow=2, ncol=1, free=T, values=1, name="b"),
+	mxAlgebra(a %*% b, name="${2:ab}")
+)
+$1 = mxRun($1)
+mxEval( list($2=$2), $1)</string>
+	<key>name</key>
+	<string>mxModel (matrix style compute)</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>mxm</string>
+	<key>uuid</key>
+	<string>53597760-74A1-479E-8B3F-245F068C6955</string>
+</dict>
+</plist>

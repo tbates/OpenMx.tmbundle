@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>summaryCommonFit(${1:fit},selDVs=${2:selDVs}, dotFilename="${3:IndependentPath.dot}"${4:,returnStd=T})</string>
+	<key>name</key>
+	<string>summaryCommonPath(model,std=T...)</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>genepi</string>
+	<key>uuid</key>
+	<string>3B1226A3-FC77-49E3-B5A2-A1BCC9E1E0E5</string>
+</dict>
+</plist>

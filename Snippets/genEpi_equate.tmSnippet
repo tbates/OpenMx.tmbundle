@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>genEpi_equate(${1:model}, master="${2:am}", slave="${3:af}", free=T, verbose=${4:T})
+</string>
+	<key>name</key>
+	<string>genEpi_equate</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>genepi</string>
+	<key>uuid</key>
+	<string>735F68A7-506A-4F88-8CB6-38DAC44AD20F</string>
+</dict>
+</plist>

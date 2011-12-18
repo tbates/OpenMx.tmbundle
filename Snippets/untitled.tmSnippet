@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>manifests &lt;- names(${1:dataFrame})
+latents &lt;- c(${2:"G"})
+$6 &lt;- mxModel(${3:baseModel or Name}, type="RAM", ${4:name = ${5:"name"},}
+	manifestVars = manifests,
+	latentVars   = latents,
+    mxPath(from= latents, to=manifests), # factor loadings
+    mxPath(from= manifests, arrows=2),   # residual variance on manifests
+    mxPath(from= latents  , arrows=2, free=F, values=1), # variance of latent fixed @ 1
+	mxData(cov($1), type="cov", numObs=100)
+)
+${7:fit}= mxRun($6)
+summary($7)</string>
+	<key>name</key>
+	<string>mxModel (pathic style)</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>mxm</string>
+	<key>uuid</key>
+	<string>1C83C5AB-F59A-4B5F-B51A-B45DF4B02B29</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>$1 = genEpi_ReRun(${1:fit1},${2:dropList=${3:NA},} ${4:regex="${5:Cs}"}, newName="${6:no_$3$5}"${7:,free=F, value=0, freeToStart=NA,verbose=F})</string>
+	<key>name</key>
+	<string>genEpi_ReRun</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>genepi</string>
+	<key>uuid</key>
+	<string>7FE4AD28-D255-4797-8BE8-0F0DF51A137E</string>
+</dict>
+</plist>

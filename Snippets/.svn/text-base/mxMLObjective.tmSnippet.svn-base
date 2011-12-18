@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>mxMLObjective(covariance = "${1:expectedCov}")
+</string>
+	<key>name</key>
+	<string>mxMLObjective</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>mxo</string>
+	<key>uuid</key>
+	<string>1F01D0B0-3919-44DB-B004-93484F11FF1C</string>
+</dict>
+</plist>

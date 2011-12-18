@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>graphViz_IndependentPath(${1:fit},selDVs=${2:selDVs}${3:, dotFilename="${4:Independent}.dot"})</string>
+	<key>name</key>
+	<string>graphViz_IndependentPath(model,selDVs)</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>genepi</string>
+	<key>uuid</key>
+	<string>2E5B98BE-8970-4C84-8106-8E165DAC36F9</string>
+</dict>
+</plist>

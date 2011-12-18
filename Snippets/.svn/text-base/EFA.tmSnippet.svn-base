@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>require(OpenMx)
+data(${1:demoOneFactor})
+manifests &lt;- names($1)
+latents &lt;- c("${2:G}")
+${3:model} &lt;- mxModel("{4:EFA}", type="RAM",
+	manifestVars = manifests,
+	latentVars   = latents,
+	mxPath(from=latents, to=manifests),
+	mxPath(from=manifests, arrows=2),
+	mxPath(from=latents, arrows=2, free=F, values=1.0),
+	mxData(cov($1), type="cov", numObs=500)
+)
+
+${4:fit} = mxRun($3); summary($4)
+omxGraphviz(model=$4, dotFilename='${5:test.dot}')
+system('open $5')</string>
+	<key>name</key>
+	<string>EFA</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>efa</string>
+	<key>uuid</key>
+	<string>B7E6E5CF-0B5F-4EBD-AA88-C7F10F66CF5A</string>
+</dict>
+</plist>

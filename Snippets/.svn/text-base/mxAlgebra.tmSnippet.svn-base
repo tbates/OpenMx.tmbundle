@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>mxAlgebra(${1:A %*% B}, name="${2:name}"${3:, dimnames=list(${4:NULL}, ${5:ColumnList})})</string>
+	<key>name</key>
+	<string>mxAlgebra(A %*% B, name="AB")</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>mxa</string>
+	<key>uuid</key>
+	<string>5B71D774-5999-4316-A15E-B0F8F6D8E843</string>
+</dict>
+</plist>

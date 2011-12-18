@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>$1 = genEpi_Jiggle(${1:matrixIn}, ${2:mean=${3:0}, sd=${4:.1}${5:, dontTouch=0}})</string>
+	<key>name</key>
+	<string>genEpi_Jiggle</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>genepi</string>
+	<key>uuid</key>
+	<string>641501A6-22B2-46B1-983E-D6E24E11966B</string>
+</dict>
+</plist>

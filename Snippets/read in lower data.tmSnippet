@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>require(sem)
+${1:data} = read.moments(file = "", diag = T)
+1
+${2:.3 1
+.4 .35 1}</string>
+	<key>name</key>
+	<string>read in lower data</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>read</string>
+	<key>uuid</key>
+	<string>F11C81C7-29B2-418C-9DD4-5F450D58F7BA</string>
+</dict>
+</plist>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/php
+&lt;?php
+$debug = 0;
+if ($debug) {
+	echo "&lt;pre&gt;";
+	$input = &lt;&lt;&lt;HTML
+	mxMatrix(
+		type="Symm", 
+		nrow=2, 
+		ncol=2, 
+		free=TRUE, 
+		values=c(1, 0, 1), 
+		name="Sigma"
+	), 
+		mxMatrix(
+		type="Full", 
+		nrow=1, 
+		ncol=2, 
+		free=TRUE, 
+		name = "M"
+	),
+HTML;
+
+echo "you gave me\n &lt;em&gt;&amp;ldquo;$input&amp;rdquo;&lt;/em&gt;\n";
+} else {
+	// $input = file_get_contents('php://stdin');
+	$input = $_ENV["TM_SELECTED_TEXT"];	
+}
+$input = ereg_replace("\),[ \t]*\n[ \t]*mx", "),BREAKBREAKmx", $input); # ,\n
+$aIn = explode(BREAKBREAK, $input);
+$output = "";
+foreach ($aIn as $key =&gt; $input) {
+	$input = ereg_replace(",[ \t]*\n[ \t]*", ", ", $input); # ,\n
+	$input = ereg_replace("[ \t]*\n[ \t]*\)", ")", $input); #trailing )
+	$input = ereg_replace("\([ \t]*\n[ \t]*", "(", $input); # leading (
+	$input = ereg_replace("\), ?$", "),\n", $input); # leading (
+	$input = ereg_replace("TRUE" , "T", $input); # TRUE -&gt; T
+	$input = ereg_replace("FALSE", "F", $input); # FALSE -&gt; F
+	$input = ereg_replace("\( ?expression ?= ?", "(", $input); # delete "expression ="
+	$input = ereg_replace("\( ?type ?= ?", "(", $input); # delete "type ="
+
+	$output .=$input;
+}
+
+echo $output;</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>^q</string>
+	<key>name</key>
+	<string>unwrap , formatting</string>
+	<key>output</key>
+	<string>replaceSelectedText</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>uuid</key>
+	<string>77F7F0B4-C947-4F72-A099-08BE08EAEBF0</string>
+</dict>
+</plist>

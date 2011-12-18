@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>mxPath(from=${1:latents}, ${2:to=${3:"var"},} arrows=${4:1}, free=${5:T}, values=${6:1}, all=${7:F}, excludeself=${8:T}  ${9:, labels=NA, lbound=NA, ubound=NA})</string>
+	<key>name</key>
+	<string>mxPath</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>mxp</string>
+	<key>uuid</key>
+	<string>AF060A24-338F-4803-BF8C-B1752C58A0D3</string>
+</dict>
+</plist>

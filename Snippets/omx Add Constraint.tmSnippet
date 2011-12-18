@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>model${2:$1} = mxModel(fit${1:1}, name="${3:constrain am equal af}",
+	mxConstraint(top.${4:am} == top.${5:af}, name="equate $4 and $5")
+)
+
+fit$2   = mxRun(model$2); mxCompare($1, c(fit$2) )
+round(omxGetParameters(fit$2), 3)</string>
+	<key>name</key>
+	<string>omx Add Constraint</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>omx</string>
+	<key>uuid</key>
+	<string>BF550098-4F60-4A64-9C1D-04DDAF15D76E</string>
+</dict>
+</plist>

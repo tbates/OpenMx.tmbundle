@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>mxData(observed=${1:dataFrame or matrix}, type="${2:raw|cov|cor|sscp}", ${3:means = ${4:expMeans}}{5:, numObs = ${6:nnn})
+</string>
+	<key>name</key>
+	<string>mxData</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>mxd</string>
+	<key>uuid</key>
+	<string>E9F6838C-B2B4-493E-895A-C01362EAC968</string>
+</dict>
+</plist>
