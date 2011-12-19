@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>mxMatrix("${1:Diag Full Iden Lower Sdiag Stand Symm Unit Zero}", ${2:nrow=nVar}, ${3:ncol=nVar}, free=${4:TRUE}, values=${5:0}${6:, label=${7:labels},  ${8:dimnames=list(${9:rowList, columnList})}}${10:, byrow=TRUE}, name="${11:expMean}")</string>
+	<string>mxMatrix("${1|Diag,Full,Iden,Lower,Sdiag,Stand,Symm,Unit,Zero|}", ${2:nrow=nVar}, ${3:ncol=nVar}, free=${4:T}, values=${5:0}${6:, label=${7:labels},  ${8:dimnames=list(${9:rowList, columnList})}}${10:, byrow=TRUE}, name="${11:expMean}")</string>
 	<key>name</key>
 	<string>mxMatrix</string>
 	<key>scope</key>

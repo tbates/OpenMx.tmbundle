@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>fit${1:1} = makeACE_2Group("ACE", selDVs=${2:selDVs}, dzData=${3:dzData}, mzData=${4:mzData}, nSib=${5:nSib},dzr=${6:.5});
-fit$1   = mxRun(fit$1 ${7:, intervals=${8:F}});
-summaryACEFit(fit$1, ${9:, accuracy=${10:3}}, dotFilename="${11:name}"${12:,returnStd=F})</string>
+	<string>fit${1:1} = makeACE_2Group("ACE", selDVs=${2:selDVs}, dzData=${3:dzData}, mzData=${4:mzData}, nSib=${5:nSib}${6:,dzr=.25});
+fit$1 = mxRun(fit$1 ${7:, intervals=${8:F}});
+summaryACEFit(fit$1, ${9:, accuracy=${10:3}}, dotFilename=${11|NA,"name"|}${12:,returnStd=F})</string>
 	<key>name</key>
 	<string>makeACE_2Group()</string>
 	<key>scope</key>

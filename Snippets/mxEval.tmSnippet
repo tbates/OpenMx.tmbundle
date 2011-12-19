@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>mxEval(${1:expression}, ${2:model}, ${3:compute=F})</string>
+	<string>mxEval(${1:expression}, fit${2:1}, ${3:compute = F})</string>
 	<key>name</key>
 	<string>mxEval</string>
 	<key>scope</key>

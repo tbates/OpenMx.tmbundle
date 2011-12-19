@@ -3,8 +3,8 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:fit} = mxRun(${2:model}${3:,intervals=${4:F}})
-${5:summary($1)}</string>
+	<string>fit$1 = mxRun(fit${1:1}${2:,intervals=${3|T,F|}})
+${5:summary(fit$1)}</string>
 	<key>name</key>
 	<string>mxRun</string>
 	<key>scope</key>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>mxData(observed=${1:dataFrame or matrix}, type="${2:raw|cov|cor|sscp}", ${3:means = ${4:expMeans}}{5:, numObs = ${6:nnn})
+	<string>mxData(observed=${1:dataFrame or matrix}, type="${2|raw,cov,cor,sscp|}", ${3:means = ${4:expMeans}}{5:, numObs = ${6:nnn})
 </string>
 	<key>name</key>
 	<string>mxData</string>

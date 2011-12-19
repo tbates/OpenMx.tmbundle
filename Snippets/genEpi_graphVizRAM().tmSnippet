@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>graphViz_RAM(${1:fit},std=${2:T}${3:, dotFilename="${4:RAM}.dot"})</string>
+	<string>graphViz_RAM(${1:fit},std=${2:T}, selDVs=${2:selDVs}, dotFilename=${4|NA,"name"|}})</string>
 	<key>name</key>
 	<string>genEpi_graphVizRAM()</string>
 	<key>scope</key>

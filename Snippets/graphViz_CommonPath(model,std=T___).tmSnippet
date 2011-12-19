@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>graphViz_CommonPath(${1:fit},selDVs=${2:selDVs}${3:, dotFilename="${4:Common}.dot"})
+	<string>graphViz_CommonPath(${1:fit}, selDVs=${2:selDVs}, dotFilename=${3|NA,"name"|}})
 </string>
 	<key>name</key>
 	<string>graphViz_CommonPath(model, selDVs...)</string>

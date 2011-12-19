@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>$1 = genEpi_ReRun(${1:fit1},${2:dropList=${3:NA},} ${4:regex="${5:Cs}"}, newName="${6:no_$3$5}"${7:,free=F, value=0, freeToStart=NA,verbose=F})</string>
+	<string>fit$1 = genEpi_ReRun(fit${1:1},${2:dropList=${3:NA},} ${4:regex="${5:Cs}"}, newName="${6:no_$3$5}"${7:,free=F, value=0, freeToStart=NA,verbose=F})</string>
 	<key>name</key>
 	<string>genEpi_ReRun</string>
 	<key>scope</key>

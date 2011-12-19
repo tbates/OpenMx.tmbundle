@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:varA}  [label="${2:$1}", shape=box${3:, URL="${4:http://en.wikipedia.org/wiki/John de Fries}"}]
+	<string>${1:varA} [label="${2:$1}", shape=box${3:, URL="${4:http://en.wikipedia.org/wiki/John de Fries}"}]
 var</string>
 	<key>name</key>
 	<string>graphViz: var</string>

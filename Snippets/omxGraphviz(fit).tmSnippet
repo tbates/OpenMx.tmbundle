@@ -3,8 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>omxGraphviz(model=${1:fit}, ${2:dotFilename='${3:$1.dot}'})
-system(paste('open' getwd(), '$3')</string>
+	<string>omxGraphviz(model=${1:fit}, ${2:dotFilename='${3|NA,"name"|}'})</string>
 	<key>name</key>
 	<string>omxGraphviz(fit)</string>
 	<key>scope</key>

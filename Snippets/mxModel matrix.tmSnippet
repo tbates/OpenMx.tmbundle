@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${2:model} &lt;- mxModel(${1:baseModel or Name},
+	<string>$1 &lt;- mxModel(${1:baseModel or Name},
 	$0
-	mxFIMLObjective(covariance="${3:expectedCov}"), means="${4:expectedMeans}"), dimnames = NA, thresholds = NA)
+	mxFIMLObjective(covariance="${2:expectedCov}"), means="${3:expectedMeans}"), dimnames = NA, thresholds = NA)
 )
-${5:fit}= mxRun($2)
-summary($5)</string>
+$1= mxRun($1)
+summary($1)</string>
 	<key>name</key>
 	<string>mxModel (matrix style)</string>
 	<key>scope</key>

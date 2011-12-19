@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>cp$6 = makeCP_2Group("${1:full_CP}", selDVs=${2:selDVs}, dzData=${3:dzData}, mzData=${4:mzData}, nSib=${5:nSib});
-cp$6   = mxRun(cp$6, ${7:intervals=F});
-summaryCommonFit(cp$6, $2, accuracy=3, dotFilename="name", returnStd= F);</string>
+	<string>fit$1 = makeCP_2Group("fit${1:1}", selDVs=${2:selDVs}, dzData=${3:dzData}, mzData=${4:mzData}, nSib=${5:nSib});
+fit$1 = mxRun(fit$6${7:, intervals=T});
+summaryCommonFit(fit$1, $2, accuracy=3, dotFilename=${8|NA,"name"|}, returnStd= F);</string>
 	<key>name</key>
 	<string>makeCP_2Group()</string>
 	<key>scope</key>

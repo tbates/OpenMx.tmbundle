@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>model${2:$1} = mxRename(omxSetParameters(fit${1:1}, labels=${3:genEpi_getLabels(fit$1@matrices$c)}, free=F, value = 0),"${4:No common c}")</string>
+	<string>fit${2:$1} = mxRename(omxSetParameters(fit${1:1}, labels=${3:genEpi_getLabels(fit$1@matrices$c)}, free=F, value = 0),"${4:No common c}")</string>
 	<key>name</key>
 	<string>omxSetParameters()  (drop using getLabels)</string>
 	<key>scope</key>
