@@ -3,7 +3,8 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>mxPath(from=${1:latents}, ${2:to=${3:"var"},} arrows=${4|1,2|}, free=${5|T,F|}, values=${6:1}, all=${7:F}, excludeself=${8|T,F|}  ${9:, labels=NA, lbound=NA, ubound=NA})</string>
+	<string>mxPath(from=${1:latents}, ${2:to=${3:"var"},} connect="${2:single,all.pairs,all.bivariate,unique.pairs,unique.bivariate|}", arrows=${4|1,2|}, free=${5|T,F|}, values=${6:1}, ${9:, labels=NA, lbound=NA, ubound=NA})
+</string>
 	<key>name</key>
 	<string>mxPath</string>
 	<key>scope</key>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>genEpi_Labeler(mxm${0:}${1:, baseName=${2:NA}, setfree=${3:T}, drop=${4:0}}${5:,jiggle=${6:.1}}${7:,boundDiag=${8:.0001}})</string>
+	<string>genEpi_Labeler(mxm${0:}${1:, baseName=${2:NA}, setfree=${3|T,F|}, drop=${4:0}}${5:,jiggle=${6:.1}}${7:,boundDiag=${8:.0001}})</string>
 	<key>name</key>
 	<string>genEpi_Labeler</string>
 	<key>scope</key>
