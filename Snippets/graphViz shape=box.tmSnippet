@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>[shape=${|square,circle,triangle,rectangle,ellipse,plaintext,diamond,point,egg,trapezium,parallelogram,house,pentagon,hexagon,septagon,octagon,doublecircle,doubleoctagon,tripleoctagon,invtriangle,invtrapezium,invhouse,Mdiamond,Msquare,Mcircle,none,note,tab,folder,box3d,component|}]</string>
+	<string>[shape=${1|square,circle,triangle,rectangle,ellipse,plaintext,diamond,point,egg,trapezium,parallelogram,house,pentagon,hexagon,septagon,octagon,doublecircle,doubleoctagon,tripleoctagon,invtriangle,invtrapezium,invhouse,Mdiamond,Msquare,Mcircle,none,note,tab,folder,box3d,component|}]</string>
 	<key>name</key>
 	<string>graphViz: [shape=box]</string>
 	<key>scope</key>

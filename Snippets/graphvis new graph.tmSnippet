@@ -6,7 +6,7 @@
 	<string>digraph G {
 	splines="FALSE";
   /*	entities */
-  ${1:varA}  [label="${2:$1}", shape=box${3:, URL="${4:http://en.wikipedia.org/wiki/John de Fries}"}]
+  ${1:varA}  [label="${2:$1}", shape=square${3:, URL="${4:http://en.wikipedia.org/wiki/John de Fries}"}]
   var$0
 
  /*	relationships */
