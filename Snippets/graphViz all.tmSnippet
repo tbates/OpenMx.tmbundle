@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>[style=dotted; color=red; style=bold,label="100 times"; weight=8]</string>
+	<string>[style=${1|dotted,bold|}; color=red; label="100 times"; weight=8]</string>
 	<key>name</key>
 	<string>graphViz [styles...]</string>
 	<key>scope</key>
 	<string>source.dot</string>
 	<key>tabTrigger</key>
-	<string>graph</string>
+	<string>style</string>
 	<key>uuid</key>
 	<string>CC54EBCC-8BE6-4105-931B-999242396406</string>
 </dict>
