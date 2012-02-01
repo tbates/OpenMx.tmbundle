@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>./vegas ${1:example}.dat –pop ${2|hapmapCEU|} ${3:-top ${4|10,%|}} ${5:-topsnp} –out $1$5</string>
+	<key>name</key>
+	<string>vegas</string>
+	<key>scope</key>
+	<string>source.shell</string>
+	<key>tabTrigger</key>
+	<string>vegas</string>
+	<key>uuid</key>
+	<string>49C2D2E1-BC9E-4F44-B016-F77EEEFFA64F</string>
+</dict>
+</plist>
