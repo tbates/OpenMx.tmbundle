@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string># -----------------------------------------------------------------------------
+# Program: ${1:ExampleDemo}.R
+# Author: ${2:$TM_FULLNAME}
+# Date: `date +%Y-%m-%d`
+#
+# ModelType: ${3:CFA,EFA,ACE,Multilevel,Mixture,Growth Curve,Growth Mixture,Saturated,Locus Likelihood,Log-odds,Joint,Ordinal,Continuous}
+# DataType: ${4|Time Series,Likert,Twin,Count,Frequencies,Log-odds,Binary,Survey,Personality,Family,Joint,Ordinal,Continuous,Simulated,Clustered|}
+# Field: ${5|Path model,Behavior Genetics,Genetic Epidemiology,Functional Magnetic Resonance Imaging (FMRI)|}
+#
+# Purpose:
+#      ${6:One Factor model to demonstrate style header for demos.}
+#
+# RevisionHistory:
+#      $2 -- `date +%Y-%m-%d` initial creation
+# -----------------------------------------------------------------------------</string>
+	<key>name</key>
+	<string>demo script</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>demo</string>
+	<key>uuid</key>
+	<string>3826F132-7DC9-46C3-80B0-1315263EBBFB</string>
+</dict>
+</plist>
