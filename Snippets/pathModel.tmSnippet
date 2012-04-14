@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>manifests &lt;- names(${1:dataFrame})
 latents &lt;- c(${2:"G"})
-$3 &lt;- mxModel(${3:baseModel or Name}, type="RAM", ${4:name = ${5:"name"},}
+$3 &lt;- mxModel("${3:Name}", type="RAM",}
 	manifestVars = manifests,
 	latentVars   = latents,
 	# Factor loadings
