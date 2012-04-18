@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>mxLatent(${1:"LatentName"}, ${2|formedBy|forms} = ${3:manifestlist}${4:, manifestVariance = 1, as.model=F, help=FALSE})</string>
+	<key>keyEquivalent</key>
+	<string>^~@p</string>
+	<key>name</key>
+	<string>mxLatent</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>mxl</string>
+	<key>uuid</key>
+	<string>FB1B729C-1B5D-4C00-BF4D-C4395EC3B731</string>
+</dict>
+</plist>
