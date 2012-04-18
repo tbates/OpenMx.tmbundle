@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>graphViz_RAM(${1:fit1},std=${2|T,F|}, dotFilename=${3|"name",NA|}${4:, precision=${5:2}})</string>
+	<string>connect="${4|single,all.pairs,all.bivariate,unique.pairs,unique.bivariate|}"</string>
 	<key>name</key>
-	<string>graphViz_RAM(model,std=T...)</string>
+	<string>connect="all."</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
-	<string>genepi</string>
+	<string>con</string>
 	<key>uuid</key>
-	<string>6BE1E112-B0F3-4B52-829F-592E06718513</string>
+	<string>50D74899-9B1F-4769-8C30-1E30D898A4CB</string>
 </dict>
 </plist>
