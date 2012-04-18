@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>graphViz_RAM(${1:fit1},std=${2|T,F|}, dotFilename=${3|"name",NA|}${4:, precision=${5:2}})</string>
+	<string>graphViz_RAM(${1:fit1},std=${2|T,F|}, dotFilename=${3|"name",NA|}${4:,  pathLabels="${5|none,labels,both|}", precision=${6:2}})</string>
 	<key>name</key>
 	<string>graphViz_RAM(model,std=T...)</string>
 	<key>scope</key>
