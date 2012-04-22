@@ -3,7 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>standardizeRAM(${1:model}${2:, Amat=NA, Smat=NA}, return="${3:parameters}")</string>
+	<string>standardizeRAM(${1:model}${2:, Amat=NA, Smat=NA}, return="${3|parameters,matrices,model|}")
+
+</string>
 	<key>name</key>
 	<string>standardizeRAM(model)</string>
 	<key>scope</key>
