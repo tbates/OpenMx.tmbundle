@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>mxLatent(${1:"LatentName"}, ${2|formedBy|forms} = ${3:manifestlist}${4:, manifestVariance = 1, as.model=F, help=FALSE})</string>
+	<string>mxLatent(${1:Latent}, ${2|formedBy,forms|} = ${3:manifestlist}, raw=${4|T,F|}, endogenous=${5|T,F|}${6:, manifestVariance = 1, as.model=F, help=FALSE})</string>
 	<key>keyEquivalent</key>
 	<string>^~@p</string>
 	<key>name</key>
