@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>contactEmailRot13</key>
+	<string>gvzbgul.p.ongrf@tznvy.pbz</string>
+	<key>contactName</key>
+	<string>Tim Bates</string>
 	<key>deleted</key>
 	<array>
 		<string>1EF94D0E-F9B9-4A1B-B22E-F1E28BCFA0F3</string>
@@ -12,6 +16,8 @@
 		<string>1DC4A219-B84A-4BB1-B3B7-C8DE0191E714</string>
 		<string>54F57D04-0B35-4B58-BDB8-B036C06D10B5</string>
 	</array>
+	<key>description</key>
+	<string></string>
 	<key>mainMenu</key>
 	<dict>
 		<key>items</key>
