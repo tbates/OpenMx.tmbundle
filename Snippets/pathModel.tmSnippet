@@ -5,16 +5,13 @@
 	<key>content</key>
 	<string>manifests &lt;- names(${1:dataFrame})
 latents &lt;- c(${2:"G"})
-$3 &lt;- mxModel("${3:Name}", type="RAM",}
+$3 &lt;- mxModel("${3:Name}", type="RAM",
 	manifestVars = manifests,
 	latentVars   = latents,
 	# Factor loadings
     mxPath(from= latents, to=manifests),
-
-	# Residual variance on manifests
-    mxPath(from= manifests, arrows=2),
-    # Variance of latent fixed @ 1
-	mxPath(from= latents, arrows=2, free=F, values=1), 
+    mxPath(from= manifests, arrows=2), # manifest residuals 
+	mxPath(from= latents, arrows=2, free=F, values=1), # latents fixed@1
 	mxData(cov($1), type="cov", numObs=100)
 )
 $3= mxRun($3)
