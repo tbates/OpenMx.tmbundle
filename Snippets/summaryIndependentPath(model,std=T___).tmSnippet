@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>summaryIndependentFit(${1:fit},selDVs=${2:selDVs}, dotFilename="${3:IndependentPath.dot}")</string>
+	<string>summaryIndependentFit(${1:fit}${2:,accuracy=${3:2}, dotFilename=${4|"name",NA|}})</string>
 	<key>name</key>
 	<string>summaryIndependentPath(model,std=T...)</string>
 	<key>scope</key>

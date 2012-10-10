@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>summaryCommonFit(${1:fit},selDVs=${2:selDVs}, dotFilename="${3:IndependentPath.dot}"${4:,returnStd=T})</string>
+	<string>summaryCommonFit(${1:fit},${2:,accuracy=${3:2}, dotFilename=${4|"name",NA|}${5:,showRg=T}${5:,returnStd=T}})</string>
 	<key>name</key>
 	<string>summaryCommonPath(model,std=T...)</string>
 	<key>scope</key>
