@@ -3,19 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>manifests &lt;- names(${1:dataFrame})
-latents &lt;- c(${2:"G"})
-$3 &lt;- mxModel("${3:Name}", type="RAM",
+	<string>data(${1:${2:myFADataRaw}, package="OpenMx"})
+manifests &lt;- names($2)
+latents &lt;- c(${3:"G"})
+$4 &lt;- mxModel("${4:m1}", type="RAM",
 	manifestVars = manifests,
 	latentVars   = latents,
 	# Factor loadings
     mxPath(from = latents, to = manifests),
     mxPath(from = manifests, arrows = 2), # manifest residuals 
 	mxPath(from = latents, arrows = 2, free = F, values = 1), # latents fixed@1
-	mxData(cov($1), type = "cov", numObs = nrow($1))
+	mxData(cov($2), type = "cov", numObs = nrow($2))
 )
-$3= mxRun($3)
-summary($3)</string>
+$4= mxRun($4)
+summary($4)</string>
 	<key>name</key>
 	<string>mxModel (pathic style)</string>
 	<key>scope</key>
