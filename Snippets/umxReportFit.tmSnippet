@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>umxReportFit(${1:m1}${2:, saturatedModels = $1_sat}, report = "${3|line,table|}")</string>
+	<key>name</key>
+	<string>umxReportFit</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>umx</string>
+	<key>uuid</key>
+	<string>ABC9E91A-6685-4728-AA57-A450ACA5BCA2</string>
+</dict>
+</plist>
