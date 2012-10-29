@@ -14,18 +14,20 @@ $3 &lt;- mxModel("${3:m1}", type="RAM",
     mxPath(from = latents, to = manifests),
     mxPath(from = manifests, arrows = 2), # manifest residuals 
 	mxPath(from = latents, arrows = 2, free = F, values = 1), # latents fixed@1
-	mxData(cov(dataFrame), type = "cov", numObs = nrow(dataFrame))
+    mxPath(from = c("x1", "x2"), to = "x3", arrows = 1), # manifest causes
+    mxPath(from = one, to = manifests, arrows = 1), # manifest means
+	mxData(dataFrame, type = "raw")
 )
 $3= mxRun($3)
 summary($3)
 </string>
 	<key>name</key>
-	<string>mxModel (pathic, data=cov )</string>
+	<string>mxModel (pathic, data=raw)</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
 	<string>mxm</string>
 	<key>uuid</key>
-	<string>1C83C5AB-F59A-4B5F-B51A-B45DF4B02B29</string>
+	<string>5D956D38-F8B0-446C-AA86-745061E700D8</string>
 </dict>
 </plist>
