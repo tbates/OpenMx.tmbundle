@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>mxMatrix(name="${1:expMean}", type="${2|Full,Diag,Iden,Lower,Sdiag,Stand,Symm,Unit,Zero|}", nrow=${3:nVar}, ${4:ncol=${5:$3}}, free=${6|T,F|}, values=${7:.3}${8:, label=${9:labels},  ${10:dimnames=list(${11:rowList, columnList})}}${12:, byrow=T})</string>
+	<key>name</key>
+	<string>mxMatrix(name first)</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>mxm</string>
+	<key>uuid</key>
+	<string>ED347BA7-EE9C-4407-BE32-2ECE16F022EB</string>
+</dict>
+</plist>

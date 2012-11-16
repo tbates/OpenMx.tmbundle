@@ -17,7 +17,7 @@
 		<string>54F57D04-0B35-4B58-BDB8-B036C06D10B5</string>
 	</array>
 	<key>description</key>
-	<string></string>
+	<string>&lt;a href="http://openmx.psyc.virginia.edu/"&gt;OpenMx&lt;/a&gt; is a free R package for statistical computing and graphics. This bundle includes help you build structural equation models.</string>
 	<key>mainMenu</key>
 	<dict>
 		<key>items</key>
@@ -37,14 +37,18 @@
 			<dict>
 				<key>items</key>
 				<array>
-					<string>421B0595-CAD4-46B2-B413-8A708390D84F</string>
-					<string>D07C20C0-8091-40F0-A62D-7EA458DE0E20</string>
 					<string>DE97BFF1-74A6-419E-A3B6-6CD3931818FA</string>
 					<string>82D1333F-4040-4706-AC7C-67616FF24C49</string>
 					<string>BD739159-0C1A-49D8-BBA1-5E01B79129A9</string>
 					<string>DC49DFC7-3FFB-4426-8741-BDD501731062</string>
 					<string>1F1EC597-2E01-49C4-8A37-75B770EF576D</string>
+					<string>------------------------------------</string>
+					<string>421B0595-CAD4-46B2-B413-8A708390D84F</string>
+					<string>D07C20C0-8091-40F0-A62D-7EA458DE0E20</string>
+					<string>------------------------------------</string>
 					<string>F29B5C6F-182A-4D62-8031-356C18FAEAD1</string>
+					<string>55DD84E2-787D-4E7D-83E3-39BB8A2BCB98</string>
+					<string>B5818D1C-DAC1-4D63-9C0B-0E626B7B846A</string>
 				</array>
 				<key>name</key>
 				<string>math functions (%*% etc.)</string>
@@ -58,17 +62,25 @@
 					<string>53597760-74A1-479E-8B3F-245F068C6955</string>
 					<string>469DD3A4-60CC-4882-9B04-26AC4A810284</string>
 					<string>087820E5-079C-4991-B3AA-6D4B918EC5B8</string>
-					<string>203FD147-EC79-4576-9DD9-9738D85B5794</string>
-					<string>AF060A24-338F-4803-BF8C-B1752C58A0D3</string>
+					<string>------------------------------------</string>
 					<string>5B71D774-5999-4316-A15E-B0F8F6D8E843</string>
 					<string>8BADFBF3-5D61-4F94-B4FD-3C4B6BDFEC71</string>
 					<string>A1C06E96-41FC-4B3C-BD5A-689D7F60E432</string>
+					<string>------------------------------------</string>
 					<string>1F01D0B0-3919-44DB-B004-93484F11FF1C</string>
 					<string>F332F28F-26B2-4C1A-9EE3-968C2A5D8E92</string>
 					<string>E9F6838C-B2B4-493E-895A-C01362EAC968</string>
+					<string>------------------------------------</string>
 					<string>FED1B1A7-DFEC-4568-B983-BE396B07218A</string>
 					<string>443D1D3F-B942-4662-B8B1-C4F61F9F725F</string>
 					<string>17306FFF-309B-43E5-8012-ACC5C530B2D8</string>
+					<string>------------------------------------</string>
+					<string>AF060A24-338F-4803-BF8C-B1752C58A0D3</string>
+					<string>50D74899-9B1F-4769-8C30-1E30D898A4CB</string>
+					<string>------------------------------------</string>
+					<string>203FD147-EC79-4576-9DD9-9738D85B5794</string>
+					<string>ED347BA7-EE9C-4407-BE32-2ECE16F022EB</string>
+					
 				</array>
 				<key>name</key>
 				<string>mxFunction</string>
@@ -90,11 +102,12 @@
 			<dict>
 				<key>items</key>
 				<array>
+					<string>C057F083-762E-420D-98E7-9486DE697691</string>
+					<string>8EE474C9-D330-43A8-B682-63D24FA0DE1C</string>
+					<string>------------------------------------</string>
 					<string>33DBEE96-342D-4801-AF2B-69AE1D48F22F</string>
 					<string>D1924CBC-3195-42AF-8E8D-94C21405961E</string>
 					<string>B02F7F11-13CC-49A9-9ACB-1956663709E2</string>
-					<string>C057F083-762E-420D-98E7-9486DE697691</string>
-					<string>8EE474C9-D330-43A8-B682-63D24FA0DE1C</string>
 				</array>
 				<key>name</key>
 				<string>get and set</string>
@@ -105,7 +118,7 @@
 				<array>
 					<string>BF550098-4F60-4A64-9C1D-04DDAF15D76E</string>
 					<string>F66C40B3-80A1-4881-B3A3-394E5C8746DE</string>
-					<string>4CB4DDCD-C166-4051-BA46-6A59392AE9C6</string>
+					<string>------------------------------------</string>
 					<string>735F68A7-506A-4F88-8CB6-38DAC44AD20F</string>
 					<string>60D76B63-AD35-4223-949E-0699C082658D</string>
 					<string>641501A6-22B2-46B1-983E-D6E24E11966B</string>
@@ -198,15 +211,21 @@
 			<dict>
 				<key>items</key>
 				<array>
+					<string>CD966474-B076-42AC-9FFA-48655E22A7DC</string>
+					<string>------------------------------------</string>
+					<string>C903C77B-C726-47E1-8FB2-9F90DFE6B763</string>
+					<string>------------------------------------</string>
+					<string>5A1C3792-81BA-413D-AB43-9DED29F22E18</string>
+					<string>CC54EBCC-8BE6-4105-931B-999242396406</string>
+					<string>------------------------------------</string>
 					<string>3E68A059-BC93-460B-8830-ACA607EBBB85</string>
 					<string>6BE1E112-B0F3-4B52-829F-592E06718513</string>
 					<string>BFF5BED5-442C-4D2C-A893-7170FD9F0964</string>
 					<string>9E53B496-63E5-4211-A0C9-5CD36AFB2278</string>
 					<string>56B8C7DA-72D8-4266-B0FF-968423C2884D</string>
 					<string>2E5B98BE-8970-4C84-8106-8E165DAC36F9</string>
+					<string>------------------------------------</string>
 					<string>22156C25-D4AC-4F86-990D-DE1AE792C78F</string>
-					<string>CD966474-B076-42AC-9FFA-48655E22A7DC</string>
-					<string>2DFB985D-7F5D-4E72-BD2C-A928624AE2BE</string>
 				</array>
 				<key>name</key>
 				<string>GraphViz</string>
@@ -215,88 +234,6 @@
 	</dict>
 	<key>name</key>
 	<string>OpenMx</string>
-	<key>ordering</key>
-	<array>
-		<string>2DFB985D-7F5D-4E72-BD2C-A928624AE2BE</string>
-		<string>2F908686-665D-4613-9FD7-B70D9CC6C918</string>
-		<string>6BC5F822-D483-4130-9238-D232AB58757E</string>
-		<string>DBB5C787-70E2-479E-BE7F-513D4FB547A5</string>
-		<string>77F7F0B4-C947-4F72-A099-08BE08EAEBF0</string>
-		<string>32082B4E-B26D-46F8-8EFA-63053804A9F3</string>
-		<string>A940B8E0-0C7D-4E71-A2AA-9BB87F9A531D</string>
-		<string>7A416AB6-25A5-4E9E-8D1A-0D4767751240</string>
-		<string>DE97BFF1-74A6-419E-A3B6-6CD3931818FA</string>
-		<string>82D1333F-4040-4706-AC7C-67616FF24C49</string>
-		<string>DC49DFC7-3FFB-4426-8741-BDD501731062</string>
-		<string>1F1EC597-2E01-49C4-8A37-75B770EF576D</string>
-		<string>BD739159-0C1A-49D8-BBA1-5E01B79129A9</string>
-		<string>421B0595-CAD4-46B2-B413-8A708390D84F</string>
-		<string>F29B5C6F-182A-4D62-8031-356C18FAEAD1</string>
-		<string>55DD84E2-787D-4E7D-83E3-39BB8A2BCB98</string>
-		<string>B5818D1C-DAC1-4D63-9C0B-0E626B7B846A</string>
-		<string>D07C20C0-8091-40F0-A62D-7EA458DE0E20</string>
-		<string>5B71D774-5999-4316-A15E-B0F8F6D8E843</string>
-		<string>8BADFBF3-5D61-4F94-B4FD-3C4B6BDFEC71</string>
-		<string>A1C06E96-41FC-4B3C-BD5A-689D7F60E432</string>
-		<string>E9F6838C-B2B4-493E-895A-C01362EAC968</string>
-		<string>203FD147-EC79-4576-9DD9-9738D85B5794</string>
-		<string>087820E5-079C-4991-B3AA-6D4B918EC5B8</string>
-		<string>53597760-74A1-479E-8B3F-245F068C6955</string>
-		<string>1C83C5AB-F59A-4B5F-B51A-B45DF4B02B29</string>
-		<string>AF060A24-338F-4803-BF8C-B1752C58A0D3</string>
-		<string>FED1B1A7-DFEC-4568-B983-BE396B07218A</string>
-		<string>17306FFF-309B-43E5-8012-ACC5C530B2D8</string>
-		<string>1F01D0B0-3919-44DB-B004-93484F11FF1C</string>
-		<string>F332F28F-26B2-4C1A-9EE3-968C2A5D8E92</string>
-		<string>BF550098-4F60-4A64-9C1D-04DDAF15D76E</string>
-		<string>443D1D3F-B942-4662-B8B1-C4F61F9F725F</string>
-		<string>F66C40B3-80A1-4881-B3A3-394E5C8746DE</string>
-		<string>C057F083-762E-420D-98E7-9486DE697691</string>
-		<string>D1924CBC-3195-42AF-8E8D-94C21405961E</string>
-		<string>B02F7F11-13CC-49A9-9ACB-1956663709E2</string>
-		<string>33DBEE96-342D-4801-AF2B-69AE1D48F22F</string>
-		<string>8DFAD464-C2AC-4894-9CF8-1F87BAF5EC37</string>
-		<string>735F68A7-506A-4F88-8CB6-38DAC44AD20F</string>
-		<string>8EE474C9-D330-43A8-B682-63D24FA0DE1C</string>
-		<string>641501A6-22B2-46B1-983E-D6E24E11966B</string>
-		<string>60D76B63-AD35-4223-949E-0699C082658D</string>
-		<string>7FE4AD28-D255-4797-8BE8-0F0DF51A137E</string>
-		<string>F7FAC662-AE5C-4935-8C93-BE7830134F44</string>
-		<string>A83CD68C-B63C-4EB6-AB2B-F01880D252A8</string>
-		<string>25009B9A-0F18-45CA-BDF3-A381E5FAFFAC</string>
-		<string>13D33C6E-8AC7-48C3-AD33-0E37C93DFF77</string>
-		<string>469DD3A4-60CC-4882-9B04-26AC4A810284</string>
-		<string>B7E6E5CF-0B5F-4EBD-AA88-C7F10F66CF5A</string>
-		<string>A9EF09A4-7D92-4A53-9583-21015BFCA4A6</string>
-		<string>8116DC80-BBBE-49F2-B774-CAC13A8DA9D6</string>
-		<string>EEEC5B5B-C1D1-4D1B-8E73-090B75983164</string>
-		<string>D9992455-B386-4208-9B8B-14018C63EA8B</string>
-		<string>D5566D41-D854-4E88-859E-1A1D5C45D3F9</string>
-		<string>3861898B-1B44-4370-9BE6-82B6FF8C06F3</string>
-		<string>F9DE5EA8-04C9-4BF5-AD88-829E8C34B1A1</string>
-		<string>3B1226A3-FC77-49E3-B5A2-A1BCC9E1E0E5</string>
-		<string>54E89527-A0D7-40E2-878D-D77CC8DE4BD4</string>
-		<string>BA6B43EA-945F-405C-9004-E456DAF1FC7E</string>
-		<string>BFF5BED5-442C-4D2C-A893-7170FD9F0964</string>
-		<string>CD966474-B076-42AC-9FFA-48655E22A7DC</string>
-		<string>9E53B496-63E5-4211-A0C9-5CD36AFB2278</string>
-		<string>56B8C7DA-72D8-4266-B0FF-968423C2884D</string>
-		<string>6BE1E112-B0F3-4B52-829F-592E06718513</string>
-		<string>2E5B98BE-8970-4C84-8106-8E165DAC36F9</string>
-		<string>22156C25-D4AC-4F86-990D-DE1AE792C78F</string>
-		<string>E421BFB7-7E4E-4A5F-AD64-EFFCE42A15D6</string>
-		<string>F11C81C7-29B2-418C-9DD4-5F450D58F7BA</string>
-		<string>D45482AF-B9B5-4154-BB93-AD8F4B4D1054</string>
-		<string>0BAAEE3F-D238-4182-9E3D-8C167C0E9C7F</string>
-		<string>A33DE6C9-65C7-4420-BE55-FD684DAF3CDE</string>
-		<string>65EB9C41-26F0-4652-B83F-DA46523FF847</string>
-		<string>EB616F95-D9C4-4014-A070-22CD53BE05A9</string>
-		<string>FE798088-FD52-474A-831F-CF9E73483015</string>
-		<string>5D4A7C93-7AE5-4A7C-8CF7-319E414302A6</string>
-		<string>FF6DF16D-E75F-4AD6-94FD-F50181B8081C</string>
-		<string>4CB4DDCD-C166-4051-BA46-6A59392AE9C6</string>
-		<string>3E68A059-BC93-460B-8830-ACA607EBBB85</string>
-	</array>
 	<key>uuid</key>
 	<string>2CD058CC-E5E2-41BC-8FF8-0C2BFC043F3E</string>
 </dict>

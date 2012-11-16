@@ -6,7 +6,7 @@
 	<string>fit$1 = mxModel("fit${1:1}",
 	mxMatrix("Full", nrow=${2:1}, ncol=${3:$2}, free=T, values=1, name="a"),
 	mxMatrix("Full", nrow=$2, ncol=$3, free=T, values=1, name="b"),
-	mxAlgebra(a %*% b, name="${4:ab}")
+	mxAlgebra(a %*% b, name="${4:ab}"),
 	mxConstraint($4 ==35, name = "maxHours"),
 	mxAlgebraObjective(algebra="$4", numObs= NA, numStats=NA)
 )

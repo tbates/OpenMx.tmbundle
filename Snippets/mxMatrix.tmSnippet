@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>mxMatrix("${1|Full,Diag,Iden,Lower,Sdiag,Stand,Symm,Unit,Zero|}", ${2:nrow=nVar}, ${3:ncol=nVar}, free=${4|T,F|}, values=${5:0}${6:, label=${7:labels},  ${8:dimnames=list(${9:rowList, columnList})}}${10:, byrow=T}, name="${11:expMean}")</string>
 	<key>name</key>
-	<string>mxMatrix</string>
+	<string>mxMatrix(type=…)</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
