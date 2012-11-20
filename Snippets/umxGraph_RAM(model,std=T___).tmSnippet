@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>graphViz_RAM(${1:fit1},std=${2|T,F|}, dotFilename=${3|"name",NA|}${4:,  pathLabels="${5|none,labels,both|}", precision=${6:2}})</string>
+	<string>umxGraph_RAM(${1:fit1},std=${2|T,F|}, dotFilename=${3|"name",NA|}${4:,  pathLabels="${5|none,labels,both|}", precision=${6:2}})</string>
 	<key>name</key>
-	<string>graphViz_RAM(model,std=T...)</string>
+	<string>umxGraph_RAM(model,std=T...)</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
-	<string>genepi</string>
+	<string>umx</string>
 	<key>uuid</key>
 	<string>6BE1E112-B0F3-4B52-829F-592E06718513</string>
 </dict>
