@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>fit$1 = genEpi_ReRun(fit${1:1},${2:dropList=${3:NA},} ${4:regex="${5:Cs}"}, newName="${6:no_$3$5}"${7:,free=F, value=0, freeToStart=NA,verbose=F})</string>
 	<key>name</key>
-	<string>genEpi_ReRun</string>
+	<string>umxReRun</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
