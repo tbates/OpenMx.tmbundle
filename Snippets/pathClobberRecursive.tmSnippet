@@ -9,7 +9,7 @@
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
-	<string>droppath</string>
+	<string>umx</string>
 	<key>uuid</key>
 	<string>13D33C6E-8AC7-48C3-AD33-0E37C93DFF77</string>
 </dict>

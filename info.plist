@@ -17,17 +17,18 @@
 		<string>54F57D04-0B35-4B58-BDB8-B036C06D10B5</string>
 	</array>
 	<key>description</key>
-	<string>&lt;a href="http://openmx.psyc.virginia.edu/"&gt;OpenMx&lt;/a&gt; is a free R package for statistical computing and graphics. This bundle includes help you build structural equation models.</string>
+	<string>&lt;a href="http://openmx.psyc.virginia.edu/"&gt;OpenMx&lt;/a&gt; is a free R package for structural equation models and matrix algebra.</string>
 	<key>mainMenu</key>
 	<dict>
 		<key>items</key>
 		<array>
+			<string>D2678410-CBB1-4F31-B234-1F70E96F4083</string>
+			<string>55DE1239-EAF9-4BB1-9F3B-ECAE60206552</string>
+			<string>DA362F60-4300-4374-AD46-8195DA088ACB</string>
+			<string>17D0ADEE-BE69-44AC-B2D6-460C6DD3A5C6</string>
 			<string>8085AD47-3C07-48D9-81AA-A32C6AF8FF53</string>
 			<string>16169783-6388-4919-98DB-9A7BF12B0279</string>
 			<string>74341381-58A9-4B92-A944-27159B8F0F40</string>
-			<string>17D0ADEE-BE69-44AC-B2D6-460C6DD3A5C6</string>
-			<string>D2678410-CBB1-4F31-B234-1F70E96F4083</string>
-			<string>DA362F60-4300-4374-AD46-8195DA088ACB</string>
 		</array>
 		<key>submenus</key>
 		<dict>
@@ -74,7 +75,6 @@
 					<string>17306FFF-309B-43E5-8012-ACC5C530B2D8</string>
 					<string>------------------------------------</string>
 					<string>AF060A24-338F-4803-BF8C-B1752C58A0D3</string>
-					<string>50D74899-9B1F-4769-8C30-1E30D898A4CB</string>
 					<string>------------------------------------</string>
 					<string>203FD147-EC79-4576-9DD9-9738D85B5794</string>
 					<string>ED347BA7-EE9C-4407-BE32-2ECE16F022EB</string>
@@ -96,7 +96,7 @@
 					<string>BA6B43EA-945F-405C-9004-E456DAF1FC7E</string>
 				</array>
 				<key>name</key>
-				<string>Reporting Helpers</string>
+				<string>Model Summary Helpers</string>
 			</dict>
 			<key>68B85D52-17E5-41BF-8608-975921DED184</key>
 			<dict>
@@ -127,9 +127,11 @@
 					<string>8DFAD464-C2AC-4894-9CF8-1F87BAF5EC37</string>
 					<string>13D33C6E-8AC7-48C3-AD33-0E37C93DFF77</string>
 					<string>25009B9A-0F18-45CA-BDF3-A381E5FAFFAC</string>
+					<string>FB1B729C-1B5D-4C00-BF4D-C4395EC3B731</string>
+					<string>2FAA560E-E175-4B89-B2B3-A2BA5AE7C401</string>
 				</array>
 				<key>name</key>
-				<string>omx Helpers</string>
+				<string>umx Helpers</string>
 			</dict>
 			<key>7C7315B8-F158-455C-A89A-DAB96EF11B4E</key>
 			<dict>
@@ -215,6 +217,8 @@
 					<string>D5566D41-D854-4E88-859E-1A1D5C45D3F9</string>
 					<string>B7E6E5CF-0B5F-4EBD-AA88-C7F10F66CF5A</string>
 					<string>55DE1239-EAF9-4BB1-9F3B-ECAE60206552</string>
+					<string>5F3995B3-9D6E-4D2D-92D7-9CDEE0CEB6A2</string>
+					<string>3826F132-7DC9-46C3-80B0-1315263EBBFB</string>
 				</array>
 				<key>name</key>
 				<string>Models</string>

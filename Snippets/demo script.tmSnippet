@@ -8,7 +8,7 @@
 # Author: ${2:$TM_FULLNAME}
 # Date: `date +%Y-%m-%d`
 #
-# ModelType: ${3:CFA,EFA,ACE,Multilevel,Mixture,Growth Curve,Growth Mixture,Saturated,Locus Likelihood,Log-odds,Joint,Ordinal,Continuous}
+# ModelType: ${3|CFA,EFA,ACE,Multilevel,Mixture,Growth Curve,Growth Mixture,Saturated,Locus Likelihood,Log-odds,Joint,Ordinal,Continuous|}
 # DataType: ${4|Time Series,Likert,Twin,Count,Frequencies,Log-odds,Binary,Survey,Personality,Family,Joint,Ordinal,Continuous,Simulated,Clustered|}
 # Field: ${5|Path model,Behavior Genetics,Genetic Epidemiology,Functional Magnetic Resonance Imaging (FMRI)|}
 #
@@ -19,7 +19,7 @@
 #      $2 -- `date +%Y-%m-%d` initial creation
 # -----------------------------------------------------------------------------</string>
 	<key>name</key>
-	<string>demo script</string>
+	<string>demo script header</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>

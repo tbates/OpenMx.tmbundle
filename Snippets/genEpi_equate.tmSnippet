@@ -3,14 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>genEpi_equate(${1:model}, master="${2:am}", slave="${3:af}", free=T, verbose=${4:T})
-</string>
+	<string>$1 = umxEquate(${1:model}, master="${2:am}", slave="${3:af}", free = ${4|T,NA,F|}, verbose=${5|T,F|}, name=${6:$1newName})</string>
 	<key>name</key>
-	<string>genEpi_equate</string>
+	<string>umxEquate</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
-	<string>genepi</string>
+	<string>umx</string>
 	<key>uuid</key>
 	<string>735F68A7-506A-4F88-8CB6-38DAC44AD20F</string>
 </dict>

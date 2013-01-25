@@ -3,14 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>fit$1 = genEpi_ReRun(fit${1:1},${2:dropList=${3:NA},} ${4:regex="${5:Cs}"}, newName="${6:no_$3$5}"${7:,free=F, value=0, freeToStart=NA,verbose=F})</string>
+	<string>$1_sat = umxSaturated(${1:model})
+# summary($1, SaturatedLikelihood = $1$SaturatedLikelihood, IndependenceLikelihood = $1$IndependenceLikelihood)
+umxReportFit($1, saturatedModels = $1_sat, report = "line")</string>
 	<key>name</key>
-	<string>umxReRun</string>
+	<string>umxSaturated</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
 	<string>umx</string>
 	<key>uuid</key>
-	<string>7FE4AD28-D255-4797-8BE8-0F0DF51A137E</string>
+	<string>2FAA560E-E175-4B89-B2B3-A2BA5AE7C401</string>
 </dict>
 </plist>
