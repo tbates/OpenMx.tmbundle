@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>%@% </string>
+	<string>$1 = umxAddLabels(${1:model}${2:, suffix = "${3:male}"})</string>
 	<key>name</key>
-	<string>%@% (kroneker)</string>
+	<string>umxAddLabels(m1)</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
-	<string>@</string>
+	<string>umx</string>
 	<key>uuid</key>
-	<string>1DC4A219-B84A-4BB1-B3B7-C8DE0191E714</string>
+	<string>C3E07C52-C762-48BE-9497-2E51E26D5A24</string>
 </dict>
 </plist>

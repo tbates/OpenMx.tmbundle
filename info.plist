@@ -6,16 +6,6 @@
 	<string>gvzbgul.p.ongrf@tznvy.pbz</string>
 	<key>contactName</key>
 	<string>Tim Bates</string>
-	<key>deleted</key>
-	<array>
-		<string>1EF94D0E-F9B9-4A1B-B22E-F1E28BCFA0F3</string>
-		<string>C3038F93-6742-42D4-BC63-DEABD70CB74B</string>
-		<string>91F46A4F-E258-4323-9B84-83B31EB1EB67</string>
-		<string>96F3D7D4-387D-42F5-A740-06F09A631B78</string>
-		<string>EA4D146E-CF38-40B7-A743-98A9D33C9652</string>
-		<string>1DC4A219-B84A-4BB1-B3B7-C8DE0191E714</string>
-		<string>54F57D04-0B35-4B58-BDB8-B036C06D10B5</string>
-	</array>
 	<key>description</key>
 	<string>&lt;a href="http://openmx.psyc.virginia.edu/"&gt;OpenMx&lt;/a&gt; is a free R package for structural equation models and matrix algebra.</string>
 	<key>mainMenu</key>
@@ -119,6 +109,7 @@
 					<string>BF550098-4F60-4A64-9C1D-04DDAF15D76E</string>
 					<string>F66C40B3-80A1-4881-B3A3-394E5C8746DE</string>
 					<string>------------------------------------</string>
+					<string>C3E07C52-C762-48BE-9497-2E51E26D5A24</string>
 					<string>735F68A7-506A-4F88-8CB6-38DAC44AD20F</string>
 					<string>60D76B63-AD35-4223-949E-0699C082658D</string>
 					<string>641501A6-22B2-46B1-983E-D6E24E11966B</string>
