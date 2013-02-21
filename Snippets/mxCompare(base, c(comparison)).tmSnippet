@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>mxCompare(${1:base}, c(${2:comparison})${3:, digits = ${4:3}, all = ${5|T,F|}}})</string>
+	<string>mxCompare(${1:base}, c(${2:comparison})${3:, digits = ${4:3}, all = ${5|T,F|}})</string>
 	<key>name</key>
 	<string>mxCompare(base, c(comparison))</string>
 	<key>scope</key>

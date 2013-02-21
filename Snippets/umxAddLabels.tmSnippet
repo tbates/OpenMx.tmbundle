@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>$1 = umxAddLabels(${1:model}${2:, suffix = "${3:male}"})</string>
+	<string>$1 = umxLabel(${1:model}${2:, suffix = "${3:male}"})</string>
 	<key>name</key>
-	<string>umxAddLabels(m1)</string>
+	<string>umxLabel(m1)</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
