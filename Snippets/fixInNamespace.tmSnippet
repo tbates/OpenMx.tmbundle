@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>fixInNamespace("${1:verifyCovarianceMatrix}", "${2:OpenMx}")
+</string>
+	<key>name</key>
+	<string>fixInNamespace</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>fix</string>
+	<key>uuid</key>
+	<string>3BC24D9C-6A03-4650-AF4C-A8207C920E38</string>
+</dict>
+</plist>
