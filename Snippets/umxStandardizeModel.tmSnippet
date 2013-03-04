@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>umxStandardizeModel(${1:model}, return = "${2|parameters,matrices,model|}")</string>
+	<key>name</key>
+	<string>umxStandardizeModel</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>umx</string>
+	<key>uuid</key>
+	<string>194014EB-86F0-40A4-AEC9-A6CF2D9C07A2</string>
+</dict>
+</plist>
