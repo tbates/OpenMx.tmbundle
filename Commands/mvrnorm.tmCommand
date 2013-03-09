@@ -8,25 +8,24 @@
 	<string>#!/usr/bin/env php
 &lt;?php
 	$existing = fread(STDIN, 1024);
-	if ($existing==2) {
+	if ($existing == 2) {
 		echo "
 myCovariance = matrix(nrow = 2, ncol = 2, byrow = T, c(
-1.0, $2,
-${2:0.5}, 1.0),)\;
+1.0, \$2,
+\${2:0.5}, 1.0));
 
-$4$5 = MASS::mvrnorm (n=${3:100}, mu=c(0,0), Sigma = myCovariance)\;
-$4$5 = data.frame($4$5);  names($4$5) &lt;- c(\"${4:x}\", \"${5:y}\")\;"
-	}else{
+\$4\$5 = MASS::mvrnorm (n = \${3:100}, mu = c(0,0), Sigma = myCovariance);
+\$4\$5 = data.frame(\$4\$5);  names(\$4\$5) &lt;- c(\"\${4:x}\", \"\${5:y}\");";
+	} else {
 		echo "
-myCovariance = matrix(nrow = 2, ncol = 2, byrow = T, c(
-1.0, $2,  $3
-${2:0.5}, 1.0), $4);
-${3:0.5}, ${4:0.5},1.0),)\;
+myCovariance = matrix(nrow = 3, ncol = 3, byrow = T, c(
+1.0, \$2,  \$3,
+\${2:0.5}, 1.0), \$4,
+\${3:0.5}, \${4:0.5}, 1.0));
 
-$6$7$8 = MASS::mvrnorm (n=${5:100}, mu=c(0,0), Sigma = myCovariance)\;
-$6$7$8 = data.frame($6$7$8);  names($6$7$8) &lt;- c(\"${6:x}\", \"${7:y}\", \"${8:z}\");"
-	
-	}
+\$6\$7\$8 = MASS::mvrnorm (n = \${5:100}, mu = c(0), Sigma = myCovariance)\;
+\$6\$7\$8 = data.frame(\$6\$7\$8);  names(\$6\$7\$8) &lt;- c(\"\${6:x}\", \"\${7:y}\", \"\${8:z}\");";
+}
 ?&gt;
 
 </string>
@@ -41,7 +40,7 @@ $6$7$8 = data.frame($6$7$8);  names($6$7$8) &lt;- c(\"${6:x}\", \"${7:y}\", \"${
 	<key>outputFormat</key>
 	<string>snippet</string>
 	<key>outputLocation</key>
-	<string>replaceInput</string>
+	<string>replaceSelection</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
