@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>umxGraph_RAM(${1:fit1},std=${2|T,F|}, precision=${3:2}, dotFilename=${4|"name",NA|}${5:,  pathLabels="${6|none,labels,both|}", showFixed=F})</string>
+	<string>umxGraph_RAM(${1:fit1}, std = ${2|T,F|}${3:, precision = ${4:2}, dotFilename = ${5|"name",NA|}${6:,  pathLabels = "${7|none,labels,both|}", showFixed = F}})</string>
 	<key>name</key>
 	<string>umxGraph_RAM(model,std=T...)</string>
 	<key>scope</key>
