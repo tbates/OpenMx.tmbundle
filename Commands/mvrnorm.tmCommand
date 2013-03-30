@@ -8,7 +8,7 @@
 	<string>#!/usr/bin/env php
 &lt;?php
 	$existing = fread(STDIN, 1024);
-	if ($existing == 2) {
+	if ($existing != 3) {
 		echo "
 myCovariance = matrix(nrow = 2, ncol = 2, byrow = T, c(
 1.0, \$2,
