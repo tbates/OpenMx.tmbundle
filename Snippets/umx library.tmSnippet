@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>source("~/bin/omxhelper/genEpi.lib.R")
+source("~/bin/umx/umx.lib.R")
+</string>
+	<key>name</key>
+	<string>umx library</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>umx</string>
+	<key>uuid</key>
+	<string>9BC004F0-B578-4626-978B-685F6A17CA87</string>
+</dict>
+</plist>
