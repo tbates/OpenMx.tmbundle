@@ -11,7 +11,7 @@ summaryACEFit(fit$1, ${9:, accuracy=${10:3}}, dotFilename=${11|NA,"name"|}${12:,
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
-	<string>genepi</string>
+	<string>umx</string>
 	<key>uuid</key>
 	<string>8116DC80-BBBE-49F2-B774-CAC13A8DA9D6</string>
 </dict>

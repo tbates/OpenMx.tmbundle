@@ -11,7 +11,7 @@ summaryIndependentFit(fit$6, $2, accuracy=2, dotFilename=${8|NA,"name"|}, return
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
-	<string>genepi</string>
+	<string>umx</string>
 	<key>uuid</key>
 	<string>D9992455-B386-4208-9B8B-14018C63EA8B</string>
 </dict>

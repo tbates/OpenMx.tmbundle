@@ -15,7 +15,7 @@ summaryIndependentFit(fit, selVars, accuracy=3, dotFilename=NA, returnStd= F)</s
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
-	<string>genepi</string>
+	<string>umx</string>
 	<key>uuid</key>
 	<string>D5566D41-D854-4E88-859E-1A1D5C45D3F9</string>
 </dict>

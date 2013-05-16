@@ -11,7 +11,7 @@ summaryCommonFit(fit$1, $2, accuracy=3, dotFilename=${8|NA,"name"|}, returnStd= 
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
-	<string>genepi</string>
+	<string>umx</string>
 	<key>uuid</key>
 	<string>EEEC5B5B-C1D1-4D1B-8E73-090B75983164</string>
 </dict>
