@@ -3,17 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>source("~/bin/omxhelper/genEpi.lib.R")
-source("~/bin/umx/umx.lib.R")
-source("http://timbates.wdfiles.com/local--files/start/umx.lib.R")
-</string>
+	<string>$1 = umxStart(${1:model})</string>
 	<key>name</key>
-	<string>umx library</string>
+	<string>umxStart</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
 	<string>umx</string>
 	<key>uuid</key>
-	<string>9BC004F0-B578-4626-978B-685F6A17CA87</string>
+	<string>BC4F1384-5467-4C4E-91F4-4782EA609451</string>
 </dict>
 </plist>
