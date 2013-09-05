@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>umxDrop1(${1:m1}${2:,regex = "${3:e_to_.*}"})</string>
+	<key>name</key>
+	<string>umxDrop1</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>umxd</string>
+	<key>uuid</key>
+	<string>D27780BB-FD2D-4F79-8873-D89791B74823</string>
+</dict>
+</plist>
