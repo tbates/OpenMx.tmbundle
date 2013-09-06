@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>umxMI_top(${1:m1}, numInd=${2:5}, typeToShow="${3|both,add,delete|}")</string>
+	<string>umxMI(${1:m1}, numInd = ${2:5}, typeToShow = "${3|both,add,delete|}")</string>
 	<key>name</key>
 	<string>umxMI_top</string>
 	<key>scope</key>
