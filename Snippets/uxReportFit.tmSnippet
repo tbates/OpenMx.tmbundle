@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>umxReportFit(${1:m1}${2:, saturatedModels = $1_sat}, report = "${3|line,table|}")</string>
+	<string>$1$2 = umxRun(${1:fit}${2:1}${3:,setLabels=T, setStart = T})</string>
 	<key>name</key>
-	<string>umxReportFit</string>
+	<string>umxRun</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
 	<string>umx</string>
 	<key>uuid</key>
-	<string>ABC9E91A-6685-4728-AA57-A450ACA5BCA2</string>
+	<string>2BFB4025-5A15-476D-95FC-B7D5BA8F564A</string>
 </dict>
 </plist>
