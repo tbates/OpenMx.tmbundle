@@ -11,7 +11,7 @@ umxReportFit($1, saturatedModels = $1_sat, report = "line")</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
-	<string>umx</string>
+	<string>umxs</string>
 	<key>uuid</key>
 	<string>2FAA560E-E175-4B89-B2B3-A2BA5AE7C401</string>
 </dict>
