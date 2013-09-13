@@ -11,15 +11,17 @@ $3 &lt;- mxModel("${3:m1}", type="RAM",
 	manifestVars = manifests,
 	latentVars   = latents,
 	# Factor loadings
-    mxPath(from = latents, to = manifests),
-    mxPath(from = manifests, arrows = 2), # manifest residuals 
+	mxPath(from = latents, to = manifests),
+
+	# residuals and variances
+	mxPath(from = manifests, arrows = 2), # manifest residuals 
 	mxPath(from = latents, arrows = 2, free = F, values = 1), # latents fixed@1
-    mxPath(from = c("x1", "x2"), to = "x3", arrows = 1), # manifest causes
-    mxPath(from = "one", to = manifests, arrows = 1), # manifest means
+	mxPath(from = c("x1", "x2"), to = "x3", arrows = 1), # manifest causes
+	mxPath(from = "one", to = manifests, arrows = 1), # manifest means
 	mxData($1, type = "raw")
 )
-$3= mxRun($3)
-summary($3)
+$3 = umxRun($3, setLabels = T, setStart = T)
+umxSummary($3)
 </string>
 	<key>name</key>
 	<string>mxModel (pathic, data=raw)</string>

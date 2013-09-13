@@ -11,7 +11,7 @@
 	mxAlgebraObjective(algebra="$4", numObs= NA, numStats=NA)
 )
 fit$1 = mxRun(fit$1)
-mxEval(list($4=$4), fit$1)
+mxEval(list($4 = $4), fit$1)
 </string>
 	<key>name</key>
 	<string>mxModel (matrix style compute)</string>

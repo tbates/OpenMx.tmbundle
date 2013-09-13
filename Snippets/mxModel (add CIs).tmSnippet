@@ -4,10 +4,10 @@
 <dict>
 	<key>content</key>
 	<string>fit${3:$1} &lt;- mxModel(fit${1:1}, ${2:mxCI(c('top.al'))} )
-fit$3= mxRun(fit$3)
-summary($3)</string>
+fit$3 = mxRun(fit$3)
+umxSummary($3)</string>
 	<key>name</key>
-	<string>mxModel (updating a model)</string>
+	<string>mxModel (add CIs to a model)</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>

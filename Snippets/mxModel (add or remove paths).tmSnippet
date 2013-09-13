@@ -3,15 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>$1 = umxRun(${1:fit1}${2:, setLabels = T, setStart = T})
-${3:umxSummary($1)}</string>
+	<string>fit${2:$1} &lt;- mxModel(fit${1:1}, ${3:mxp} )
+$2 = umxRun($2, setLabels = T, setStart = T)
+umxSummary($2)
+</string>
 	<key>name</key>
-	<string>umxRun</string>
+	<string>mxModel (add or remove paths)</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
-	<string>umxr</string>
+	<string>mxm</string>
 	<key>uuid</key>
-	<string>2BFB4025-5A15-476D-95FC-B7D5BA8F564A</string>
+	<string>FFDEF4C4-29D4-4384-B298-1F9564E74F9B</string>
 </dict>
 </plist>

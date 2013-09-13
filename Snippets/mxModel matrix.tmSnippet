@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>$1 &lt;- mxModel("${1:baseModel or Name}",
+	<string>$1 &lt;- mxModel(${1:baseModel or Name},
 	$0
 	mxFIMLObjective(covariance="${2:expectedCov}"), means="${3:expectedMeans}"), dimnames = NA, thresholds = NA)
 )
