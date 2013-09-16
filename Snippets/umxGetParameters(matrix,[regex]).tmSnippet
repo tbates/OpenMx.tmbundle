@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>umxMI(${1:m1}, numInd = ${2:5}, typeToShow = "${3|both,add,delete|}")</string>
+	<string>umxGetParameters(${1:model@matrices\$${2:a}} ${3:,regex= "${4:2[0-9]}"})</string>
 	<key>name</key>
-	<string>umxMI_top</string>
+	<string>umxGetParameters(matrix,[regex])</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
-	<string>umxm</string>
+	<string>umxg</string>
 	<key>uuid</key>
-	<string>ED952241-B9C9-4F54-BF5B-9B0471197347</string>
+	<string>8EE474C9-D330-43A8-B682-63D24FA0DE1C</string>
 </dict>
 </plist>

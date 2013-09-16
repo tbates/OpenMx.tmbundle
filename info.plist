@@ -19,6 +19,7 @@
 			<string>8085AD47-3C07-48D9-81AA-A32C6AF8FF53</string>
 			<string>16169783-6388-4919-98DB-9A7BF12B0279</string>
 			<string>74341381-58A9-4B92-A944-27159B8F0F40</string>
+			<string>68B85D52-17E5-41BF-8608-975921DED184</string>
 		</array>
 		<key>submenus</key>
 		<dict>
@@ -89,6 +90,7 @@
 				<key>name</key>
 				<string>Model Summary Helpers</string>
 			</dict>
+
 			<key>68B85D52-17E5-41BF-8608-975921DED184</key>
 			<dict>
 				<key>items</key>
@@ -143,7 +145,6 @@
 			<dict>
 				<key>items</key>
 				<array>
-					<string>68B85D52-17E5-41BF-8608-975921DED184</string>
 					<string>FF6DF16D-E75F-4AD6-94FD-F50181B8081C</string>
 					<string>32082B4E-B26D-46F8-8EFA-63053804A9F3</string>
 					<string>77F7F0B4-C947-4F72-A099-08BE08EAEBF0</string>
@@ -151,6 +152,7 @@
 				<key>name</key>
 				<string>formatting</string>
 			</dict>
+
 
 			<key>85A7F0C3-3636-4F90-9AA9-12829D1D0518</key>
 			<dict>
@@ -223,7 +225,6 @@
 					<string>D9992455-B386-4208-9B8B-14018C63EA8B</string>
 					<string>D5566D41-D854-4E88-859E-1A1D5C45D3F9</string>
 					<string>B7E6E5CF-0B5F-4EBD-AA88-C7F10F66CF5A</string>
-					<string>55DE1239-EAF9-4BB1-9F3B-ECAE60206552</string>
 					<string>5F3995B3-9D6E-4D2D-92D7-9CDEE0CEB6A2</string>
 					<string>3826F132-7DC9-46C3-80B0-1315263EBBFB</string>
 				</array>

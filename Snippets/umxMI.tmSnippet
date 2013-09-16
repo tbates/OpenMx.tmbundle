@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>graphViz_Cholesky(${1:fit}, selDVs=${2:selDVs}, dotFilename=${3|NA,"name"|}})</string>
+	<string>umxMI(${1:m1}, numInd = ${2:5}, typeToShow = "${3|both,add,delete|}")</string>
 	<key>name</key>
-	<string>graphViz_Cholesky(model, selDVs)</string>
+	<string>umxMI</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
-	<string>umx</string>
+	<string>umxm</string>
 	<key>uuid</key>
-	<string>9E53B496-63E5-4211-A0C9-5CD36AFB2278</string>
+	<string>ED952241-B9C9-4F54-BF5B-9B0471197347</string>
 </dict>
 </plist>
