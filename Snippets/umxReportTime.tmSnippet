@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>umxPlot(${1:fit1}, std = ${2|T,F|}${3:, precision = ${4:2}, dotFilename = ${5|"name",NA|}${6:,  pathLabels = "${7|none,labels,both|}", showFixed = F}})</string>
+	<string>umxReportTime(${1:fit1}${, formatStr = "H %H M %M S %OS3", tz = "GMT"})</string>
 	<key>name</key>
-	<string>umxPlot(model, std = T...)</string>
+	<string>umxReportTime</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
-	<string>umxp</string>
+	<string>umxr</string>
 	<key>uuid</key>
-	<string>6BE1E112-B0F3-4B52-829F-592E06718513</string>
+	<string>71CFAA15-21B3-4815-A36D-CC9AC7C88647</string>
 </dict>
 </plist>
