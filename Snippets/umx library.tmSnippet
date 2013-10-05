@@ -4,7 +4,7 @@
 <dict>
 	<key>content</key>
 	<string>source("~/bin/omxhelper/genEpi.lib.R")
-source("~/bin/umx/umx.lib.R")
+setwd("~/bin/umx"); devtools::document(); devtools::install(); 
 source("http://timbates.wdfiles.com/local--files/start/umx.lib.R")
 </string>
 	<key>name</key>
