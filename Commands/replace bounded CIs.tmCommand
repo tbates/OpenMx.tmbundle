@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>&lt;?php
+// Set CI when ubound case
+// Created: 2013.10.07 Author: timothy.c.bates@gmail.com
+
+function makeTableFromText($lines, $sep = "	"){
+	$table = array();
+	$line_n = 0;
+	$aLines = explode("\n", $lines);
+	foreach ($aLines as $key =&gt; $line) {
+		$line = trim($line);
+		if (empty($line)) {
+			$aCells = array();
+				# pad with empty cells
+		} else {
+			$aCells = explode('	', $line);
+		}
+		$table[$line_n] = $aCells;
+		$line_n += 1;
+	}
+	return($table);
+}
+
+function makeTextFromTable($table, $sep = "	"){
+	$o = "";
+	$nRows = count($table);
+	for ($i=0; $i &lt; $nRows; $i++) {
+		$thisRow = $table[$i];
+		$o = $o . implode($thisRow, $sep). "\n";
+	}
+	return($o);
+}
+
+
+$o = array();
+if (0) { 
+	// set to 1 for debugging
+	$existing = "0.726	0.800	0.864
+0.000	0.259	0.426
+0.389	0.419	0.448
+0.000	0.000	0.056
+0.000	0.075	0.386
+0.000	0.013	0.044
+0.206	-0.105	-0.018
+0.243	0.307	0.356
+0.016	0.088	0.176";
+	// $existing = ""; // test case of empty line
+	echo "started with:\n$existing\n";
+} else {
+	$existing = fread(STDIN, 1024);
+	// $existing = $_ENV["TM_SELECTED_TEXT"];
+	// $existing = $_ENV["TM_CURRENT_LINE"];	
+}
+
+// Replace spaces with tabs if there are no tabs in the selection
+$table = makeTableFromText($existing, $sep = "\t");
+$nRows = count($table);
+for ($i=0; $i &lt; $nRows; $i++) {
+	$thisRow = $table[$i];
+	if ($thisRow[0] == 0) {
+		$low = $thisRow[1] - ($thisRow[2] - $thisRow[1]);
+		if ($low &lt; 0) {
+			$thisRow[0] = $low;
+		}else{
+			// $thisRow[0] = 			
+		}
+	}
+	$table[$i] = $thisRow;
+}
+echo makeTextFromTable($table);
+// print_r($table);
+
+?&gt;</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>inputFormat</key>
+	<string>text</string>
+	<key>name</key>
+	<string>replace bounded CIs</string>
+	<key>outputCaret</key>
+	<string>afterOutput</string>
+	<key>outputFormat</key>
+	<string>text</string>
+	<key>outputLocation</key>
+	<string>replaceInput</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>uuid</key>
+	<string>F0DC6189-55F0-4184-AC1D-0CEE04F1294D</string>
+	<key>version</key>
+	<integer>2</integer>
+</dict>
+</plist>
