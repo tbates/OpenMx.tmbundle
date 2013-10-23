@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>summaryACEFit(${1:fit},${3:, accuracy=${4:2}}, dotFilename=${5|"name,NA"}${6:,returnStd=T}${7:,showRg=F}${8:,extended=F})</string>
+	<string>umxSummaryACE(${1:fit}, dotFilename = "${2|name,NA|}", comparison = "${3|name,NULL|}", CIs = F, ${4:, accuracy=${5:2}, showStd = T, returnStd = T,showRg = F,extended = F})</string>
 	<key>name</key>
-	<string>summaryACEFit(model,...)</string>
+	<string>umxSummaryACE(model,...)</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
-	<string>umx</string>
+	<string>umxs</string>
 	<key>uuid</key>
 	<string>F9DE5EA8-04C9-4BF5-AD88-829E8C34B1A1</string>
 </dict>

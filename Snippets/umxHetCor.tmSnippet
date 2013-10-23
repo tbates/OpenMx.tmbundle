@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>het_$1 = umxHetCor(${1:df}, ML = ${2|F,T|}, use="${3|pairwise.complete.obs,complete.obs|}")</string>
+	<key>name</key>
+	<string>umxHetCor</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>umxh</string>
+	<key>uuid</key>
+	<string>9F70FE6A-0544-45E4-BA08-F5768C9F9967</string>
+</dict>
+</plist>
