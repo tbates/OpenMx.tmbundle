@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>umxPlotACE(${1:fit}, dotFilename=${3|NA,"name"|})</string>
+	<string>umxCompare(${1:base}, c(${2:comparison})${3:, all = ${4|T,F|}, digits=1, report=${5|1,2,3|}})</string>
 	<key>name</key>
-	<string>umxPlotACE(model)</string>
+	<string>umxCompare</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
-	<string>umxp</string>
+	<string>umxc</string>
 	<key>uuid</key>
-	<string>9E53B496-63E5-4211-A0C9-5CD36AFB2278</string>
+	<string>730BED2C-86BE-415D-8575-5B1826C04698</string>
 </dict>
 </plist>
