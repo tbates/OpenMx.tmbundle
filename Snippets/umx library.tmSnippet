@@ -3,8 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>source("~/bin/omxhelper/genEpi.lib.R")
-setwd("~/bin/umx"); devtools::document(); devtools::install(); 
+	<string>library(OpenMx)    # for sem
+devtools::install("~/bin/umx")
+devtools::install("~/bin/umx.twin");
 source("http://timbates.wdfiles.com/local--files/start/umx.lib.R")
 </string>
 	<key>name</key>
