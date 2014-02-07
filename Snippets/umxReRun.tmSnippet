@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>$1${5:$2} = umxReRun(${1:fit}${2:1}, dropList = umxGetLabels($1$2), regex = "", name="${3:drop$1$2}"${4:,free = F, value = 0, freeToStart = NA, verbose = F})</string>
+	<string>$1${5:$2} = umxReRun(${1:fit}${2:1}, dropList = umxGetParameters($1$2), regex = "", name="${3:drop$1$2}"${4:,free = F, value = 0, freeToStart = NA, verbose = F})</string>
 	<key>name</key>
 	<string>umxReRun</string>
 	<key>scope</key>
