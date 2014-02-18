@@ -20,7 +20,7 @@ ${4:fit} = mxRun($3); summary($4)
 omxGraphviz(model=$4, dotFilename='${5:test.dot}')
 system('open $5')</string>
 	<key>name</key>
-	<string>EFA</string>
+	<string>umxEFA</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>

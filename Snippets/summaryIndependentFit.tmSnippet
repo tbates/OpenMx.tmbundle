@@ -11,7 +11,7 @@ summaryACEFit(fit, selVars=selVars, accuracy=3, dotFilename="name", returnStd= F
 summaryCommonFit(fit, selDVs=selDVs, accuracy=3, dotFilename=NA, returnStd=F);
 summaryIndependentFit(fit, selVars, accuracy=3, dotFilename=NA, returnStd= F)</string>
 	<key>name</key>
-	<string>makeOrdinal_2Group()</string>
+	<string>umxOrdinalACE()</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>

@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${2:GbyE}fit${3:1} = makeGxE_2Group("${1:full}", selDVs=selDVs, selDefs=selDefs, dzData=dzData, mzData=mzData, nSib=nSib);
+	<string>${2:GbyE}fit${3:1} = umxGxE("${1:full}", selDVs = selDVs, selDefs = selDefs, dzData = dzData, mzData = mzData);
 $2fit$3   = mxRun($2fit$3, ${4:intervals=F});
-# summaryIndependentFit($2fit$3, selDVs, accuracy=3, dotFilename="GbyE_$3.dot", returnStd= F);
+# umxSummaryIP($2fit$3, selDVs, accuracy=3, dotFilename="GbyE_$3.dot", returnStd= F);
 
 omxGetParameters($2fit$3)
-genEpi_PlotUnivariateModeration($2fit$3, selDefs, mzData, dzData, location="topleft")
+umxPlotGxE($2fit$3, selDefs, mzData, dzData, location="topleft")
 </string>
 	<key>name</key>
-	<string>makeGxE_2Group()</string>
+	<string>umxGxE()</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>

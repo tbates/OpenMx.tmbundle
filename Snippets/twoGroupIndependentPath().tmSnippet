@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>fit$6 = makeIP_2Group("${1:full_Independent}", selDVs=${2:selDVs}, dzData=${3:dzData}, mzData=${4:mzData}, nSib=${5:nSib}, freeLowerA=T);
-fit$6   = mxRun(fit$6, ${7:intervals=F});
-summaryIndependentFit(fit$6, $2, accuracy=2, dotFilename=${8|NA,"name"|}, returnStd= F);</string>
+	<string>fit$6 = umxIP("${1:full_Independent}", selDVs = ${2:selDVs}, dzData = ${3:dzData}, mzData = ${4:mzData}, freeLowerA = T);
+fit$6 = mxRun(fit$6, ${7:intervals=F});
+umxSummaryIP(fit$6, $2, accuracy=2, dotFilename=${8|NA,"name"|}, returnStd= F);</string>
 	<key>name</key>
-	<string>makeIP_2Group()</string>
+	<string>umxIP()</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>

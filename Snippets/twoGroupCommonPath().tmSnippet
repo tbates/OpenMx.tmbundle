@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>fit$1 = makeCP_2Group("fit${1:1}", selDVs=${2:selDVs}, dzData=${3:dzData}, mzData=${4:mzData}, nSib=${5:nSib});
+	<string>fit$1 = umxCP("fit${1:1}", selDVs = ${2:selDVs}, dzData = ${3:dzData}, mzData = ${4:mzData});
 fit$1 = mxRun(fit$6${7:, intervals=T});
-summaryCommonFit(fit$1, $2, accuracy=3, dotFilename=${8|NA,"name"|}, returnStd= F);</string>
+umxSummaryCP(fit$1, $2, accuracy=3, dotFilename=${8|NA,"name"|}, returnStd= F);</string>
 	<key>name</key>
-	<string>makeCP_2Group()</string>
+	<string>umxCP()</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
