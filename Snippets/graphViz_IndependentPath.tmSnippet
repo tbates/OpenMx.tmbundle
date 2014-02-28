@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>graphViz_IndependentPath(${1:fit1}, selDVs=${2:selDVs}, dotFilename=${3|NA,"name"|}})</string>
+	<string>umxPlotIP(${1:fit1}, selDVs = ${2:selDVs}, dotFilename = ${3|NA,"name"|}})</string>
 	<key>name</key>
-	<string>graphViz_IndependentPath(model,selDVs)</string>
+	<string>umxPlotIP(model,selDVs)</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
-	<string>genepi</string>
+	<string>umxp</string>
 	<key>uuid</key>
 	<string>2E5B98BE-8970-4C84-8106-8E165DAC36F9</string>
 </dict>
