@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>umx_check_names(${c("z1","x2")}, data = ${2:demoOneFactor}, die = ${3|T,F|})</string>
 	<key>name</key>
-	<string>umx_</string>
+	<string>umx_check_names</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
