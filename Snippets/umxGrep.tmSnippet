@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>umx_grep_labels(${1:df}, grepString = "${2:.*}", output="${3|both|}", ignore.case = ${4|T,F|})
+	<string>umx_grep(${1:df}, grepString = "${2:.*}", output="${3|both|}", ignore.case = ${4|T,F|})
 </string>
 	<key>name</key>
-	<string>umx_grep_labels</string>
+	<string>umx_grep labels</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
-	<string>umxg</string>
+	<string>grep</string>
 	<key>uuid</key>
 	<string>8DEB312B-16CD-4706-AAAE-352E7514D3FD</string>
 </dict>
