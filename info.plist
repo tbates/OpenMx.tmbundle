@@ -7,7 +7,7 @@
 	<key>contactName</key>
 	<string>Tim Bates</string>
 	<key>description</key>
-	<string>&lt;a href="http://openmx.psyc.virginia.edu/"&gt;OpenMx&lt;/a&gt; is a free R package for structural equation models and matrix algebra.</string>
+	<string>Support for structural equation modeling and matrix algebra in &lt;a href="http://openmx.psyc.virginia.edu/"&gt;OpenMx&lt;/a&gt;: a free &lt;a href="http://cran.r-project.org/"&gt;R&lt;/a&gt; package</string>
 	<key>mainMenu</key>
 	<dict>
 		<key>items</key>
@@ -69,7 +69,6 @@
 					<string>------------------------------------</string>
 					<string>203FD147-EC79-4576-9DD9-9738D85B5794</string>
 					<string>ED347BA7-EE9C-4407-BE32-2ECE16F022EB</string>
-					
 				</array>
 				<key>name</key>
 				<string>mxFunction</string>
@@ -89,7 +88,6 @@
 				<key>name</key>
 				<string>Model Summary Helpers</string>
 			</dict>
-
 			<key>68B85D52-17E5-41BF-8608-975921DED184</key>
 			<dict>
 				<key>items</key>
@@ -113,7 +111,7 @@
 					<string>------------------------------------</string>
 					<string>C3E07C52-C762-48BE-9497-2E51E26D5A24</string>
 					<string>60D76B63-AD35-4223-949E-0699C082658D</string>
-    					<string>BC4F1384-5467-4C4E-91F4-4782EA609451</string>
+					<string>BC4F1384-5467-4C4E-91F4-4782EA609451</string>
 					<string>735F68A7-506A-4F88-8CB6-38DAC44AD20F</string>
 					<string>------------------------------------</string>
 					<string>2BFB4025-5A15-476D-95FC-B7D5BA8F564A</string>
@@ -121,8 +119,8 @@
 					<string>ED952241-B9C9-4F54-BF5B-9B0471197347</string>
 					<string>946201A6-45D9-4263-AFB4-42E2B7553D84</string>
 					<string>D27780BB-FD2D-4F79-8873-D89791B74823</string>
-    				    	<string>8DEB312B-16CD-4706-AAAE-352E7514D3FD</string>
-    					<string>------------------------------------</string>					
+					<string>8DEB312B-16CD-4706-AAAE-352E7514D3FD</string>
+					<string>------------------------------------</string>
 					<string>730BED2C-86BE-415D-8575-5B1826C04698</string>
 					<string>194014EB-86F0-40A4-AEC9-A6CF2D9C07A2</string>
 					<string>71CFAA15-21B3-4815-A36D-CC9AC7C88647</string>
@@ -137,7 +135,7 @@
 					<string>8DFAD464-C2AC-4894-9CF8-1F87BAF5EC37</string>
 					<string>13D33C6E-8AC7-48C3-AD33-0E37C93DFF77</string>
 					<string>25009B9A-0F18-45CA-BDF3-A381E5FAFFAC</string>
-					    <string>9F70FE6A-0544-45E4-BA08-F5768C9F9967</string>
+					<string>9F70FE6A-0544-45E4-BA08-F5768C9F9967</string>
 					<string>------------------------------------</string>
 					<string>3301CD1B-AFEF-475F-9A2F-F02FBF336872</string>
 				</array>
@@ -155,32 +153,6 @@
 				<key>name</key>
 				<string>formatting</string>
 			</dict>
-
-
-			<key>85A7F0C3-3636-4F90-9AA9-12829D1D0518</key>
-			<dict>
-				<key>name</key>
-				<string>Create Data</string>
-				<key>items</key>
-				<array>
-					<string>A03B3BCC-FC89-4AF2-A0ED-6DC9301ABD5B</string>
-					<string>0BAAEE3F-D238-4182-9E3D-8C167C0E9C7F</string>
-					<string>FE798088-FD52-474A-831F-CF9E73483015</string>
-					<string>D45482AF-B9B5-4154-BB93-AD8F4B4D1054</string>
-				</array>
-			</dict>
-
-			<key>AAA7C58C-1446-4C7A-A200-1EA6E6305DC6</key>
-			<dict>
-				<key>name</key>
-				<string>Helpers for twin data</string>
-				<key>items</key>
-				<array>
-					<string>65EB9C41-26F0-4652-B83F-DA46523FF847</string>
-					<string>EB616F95-D9C4-4014-A070-22CD53BE05A9</string>
-				</array>
-			</dict>
-
 			<key>8085AD47-3C07-48D9-81AA-A32C6AF8FF53</key>
 			<dict>
 				<key>items</key>
@@ -197,6 +169,18 @@
 				<key>name</key>
 				<string>data helpers</string>
 			</dict>
+			<key>85A7F0C3-3636-4F90-9AA9-12829D1D0518</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>A03B3BCC-FC89-4AF2-A0ED-6DC9301ABD5B</string>
+					<string>0BAAEE3F-D238-4182-9E3D-8C167C0E9C7F</string>
+					<string>FE798088-FD52-474A-831F-CF9E73483015</string>
+					<string>D45482AF-B9B5-4154-BB93-AD8F4B4D1054</string>
+				</array>
+				<key>name</key>
+				<string>Create Data</string>
+			</dict>
 			<key>A815D85B-A7C4-46E1-93CC-C7A5C4E5C205</key>
 			<dict>
 				<key>items</key>
@@ -206,6 +190,16 @@
 				</array>
 				<key>name</key>
 				<string>Convert from Mx</string>
+			</dict>
+			<key>AAA7C58C-1446-4C7A-A200-1EA6E6305DC6</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>65EB9C41-26F0-4652-B83F-DA46523FF847</string>
+					<string>EB616F95-D9C4-4014-A070-22CD53BE05A9</string>
+				</array>
+				<key>name</key>
+				<string>Helpers for twin data</string>
 			</dict>
 			<key>BAF17DB5-9D6E-4120-8994-57DC01C3ED23</key>
 			<dict>
