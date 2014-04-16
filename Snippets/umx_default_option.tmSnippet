@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>$1 = umx_default_option(${1:x}, ${2:option_list}, check = ${3|TRUE,FALSE|})</string>
+	<key>name</key>
+	<string>umx_default_option</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>umx_</string>
+	<key>uuid</key>
+	<string>F361FE8A-DF2C-44E5-88A1-1F51C7A0BBEA</string>
+</dict>
+</plist>
