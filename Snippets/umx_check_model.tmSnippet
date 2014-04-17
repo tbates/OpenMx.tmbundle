@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>umx_check_model(${1:model})${2:,type = NULL, hasData = NULL})
+	<string>umx_check_model(${1:model}${2:,type = ${3|NULL,"RAM"|}, hasData = ${4|NULL,T,F|}})
 </string>
 	<key>name</key>
 	<string>umx_check_model</string>
