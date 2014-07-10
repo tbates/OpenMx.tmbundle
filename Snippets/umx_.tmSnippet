@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>umx_check_names(${c("z1","x2")}, data = ${2:demoOneFactor}, die = ${3|T,F|})</string>
+	<string>umx_check_names(${1:c("z1","x2")}, data = ${2:demoOneFactor}, die = ${3|T,F|})</string>
 	<key>name</key>
 	<string>umx_check_names</string>
 	<key>scope</key>
