@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>umxPath(${1|var,cov,unique.bivariate,means,v1m0|} = c(${2:})${3:, ${4|fixedAt,firstAt|} = ${5:1}})</string>
+	<key>name</key>
+	<string>umxPath(var/cov/unique)</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>umxp</string>
+	<key>uuid</key>
+	<string>BE738D3A-555A-4869-9304-A103ED7B1A17</string>
+</dict>
+</plist>

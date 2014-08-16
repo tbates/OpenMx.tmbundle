@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>umxPath(${1:from}, ${2|to,with|} = c(), ${3|fixedAt,firstAt| = ${4:1}})</string>
+	<key>name</key>
+	<string>umxPath(, to/with)</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>umxp</string>
+	<key>uuid</key>
+	<string>33576E93-7F94-4C32-BC42-7D863B6B84A8</string>
+</dict>
+</plist>
