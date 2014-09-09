@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>umx_paste_names(${1:varNames}, textConstant = ${2:"_T"}, suffixes= ${3:1:2})</string>
+	<key>name</key>
+	<string>umx_paste_names</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>umx_</string>
+	<key>uuid</key>
+	<string>4070617C-54F9-473E-A629-862E06A61A12</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>umx_apply(FUN=${1:mean}, to_each="${2|row,column|}", of_DF= ${3:df})</string>
+	<key>name</key>
+	<string>umx_apply</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>umx_</string>
+	<key>uuid</key>
+	<string>BDDCC236-AF7E-4364-8CF3-A6707E8C2D7E</string>
+</dict>
+</plist>
