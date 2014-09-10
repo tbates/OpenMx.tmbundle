@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>umx_set_cores(${1:omxDetectCores() - 1}${2:, model = ${3:NULL}})
+</string>
+	<key>name</key>
+	<string>umx_set_cores</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>umx_</string>
+	<key>uuid</key>
+	<string>8A85693C-7341-42D1-9221-D5C7946C954A</string>
+</dict>
+</plist>
