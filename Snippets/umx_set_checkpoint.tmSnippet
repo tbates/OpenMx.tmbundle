@@ -3,10 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>umx_set_checkpointing("${1|Yes,No|}", count = ${2:1}, units = "${3|evaluations,minutes|}", directory = ${4:getwd()}, model = ${5:NULL})
+	<string>umx_set_checkpoint(count = ${2:1}, units = "${3|evaluations,minutes|}", directory = ${4:getwd()}, model = ${5:NULL})
 </string>
 	<key>name</key>
-	<string>umx_set_checkpointing</string>
+	<string>umx_set_checkpoint</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
