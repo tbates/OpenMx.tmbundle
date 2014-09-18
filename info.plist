@@ -12,13 +12,14 @@
 	<dict>
 		<key>items</key>
 		<array>
-			<string>8085AD47-3C07-48D9-81AA-A32C6AF8FF53</string>
-			<string>16169783-6388-4919-98DB-9A7BF12B0279</string>
 			<string>D2678410-CBB1-4F31-B234-1F70E96F4083</string>
-			<string>DA362F60-4300-4374-AD46-8195DA088ACB</string>
-			<string>17D0ADEE-BE69-44AC-B2D6-460C6DD3A5C6</string>
 			<string>74341381-58A9-4B92-A944-27159B8F0F40</string>
+			<string>D5D8F5F2-A2EC-43CE-AE79-3C178ACD2774</string>
+			<string>DA362F60-4300-4374-AD46-8195DA088ACB</string>
+			<string>16169783-6388-4919-98DB-9A7BF12B0279</string>
+			<string>17D0ADEE-BE69-44AC-B2D6-460C6DD3A5C6</string>
 			<string>68B85D52-17E5-41BF-8608-975921DED184</string>
+			<string>8085AD47-3C07-48D9-81AA-A32C6AF8FF53</string>
 		</array>
 		<key>submenus</key>
 		<dict>
@@ -27,6 +28,7 @@
 				<key>items</key>
 				<array>
 					<string>DE97BFF1-74A6-419E-A3B6-6CD3931818FA</string>
+					<string>B81C235B-080D-43B2-90B0-58344A41FE8E</string>
 					<string>82D1333F-4040-4706-AC7C-67616FF24C49</string>
 					<string>DC49DFC7-3FFB-4426-8741-BDD501731062</string>
 					<string>FFDEF4C4-29D4-4384-B298-1F9564E74F9B</string>
@@ -43,10 +45,42 @@
 				<key>name</key>
 				<string>math functions (%*% etc.)</string>
 			</dict>
+
+			<key>B81C235B-080D-43B2-90B0-58344A41FE8E</key>
+			<dict>
+				<key>items</key>
+				<array>					
+					<string>583C0CC4-36ED-4EFE-8892-0900C6B48BF0</string>
+					<string>BE738D3A-555A-4869-9304-A103ED7B1A17</string>
+					<string>33576E93-7F94-4C32-BC42-7D863B6B84A8</string>
+				</array>
+				<key>name</key>
+				<string>umxRAM helpers</string>
+			</dict>
+			
+			<key>D5D8F5F2-A2EC-43CE-AE79-3C178ACD2774</key>
+			<dict>
+			<key>items</key>
+			<array>					
+				<string>8A85693C-7341-42D1-9221-D5C7946C954A</string>
+				<string>89D7E9A0-7890-49D8-BA0E-EE76580F84AA</string>
+				<string>------------------------------------</string>
+				<string>EAEF22D3-166D-4A4C-BB53-23C8217E2465</string>
+				<string>4070617C-54F9-473E-A629-862E06A61A12</string>
+				<string>F361FE8A-DF2C-44E5-88A1-1F51C7A0BBEA</string>
+				<string>D03CFA54-10D5-4214-8BB5-CCD0C13DC0D6</string>
+				<string>BDDCC236-AF7E-4364-8CF3-A6707E8C2D7E</string>
+				<string>------------------------------------</string>
+				<string>E44029AA-8680-4B5D-9009-B25184CCBAB6</string>
+				<string>------------------------------------</string>
+			</array>
+			<key>name</key>
+			<string>umx misc</string>
+			</dict>
 			<key>17D0ADEE-BE69-44AC-B2D6-460C6DD3A5C6</key>
 			<dict>
 				<key>items</key>
-				<array>
+				<array>					
 					<string>5D956D38-F8B0-446C-AA86-745061E700D8</string>
 					<string>1C83C5AB-F59A-4B5F-B51A-B45DF4B02B29</string>
 					<string>53597760-74A1-479E-8B3F-245F068C6955</string>
@@ -71,7 +105,7 @@
 					<string>ED347BA7-EE9C-4407-BE32-2ECE16F022EB</string>
 				</array>
 				<key>name</key>
-				<string>mxFunction</string>
+				<string>mxFunctions</string>
 			</dict>
 			<key>55DE1239-EAF9-4BB1-9F3B-ECAE60206552</key>
 			<dict>
@@ -81,13 +115,11 @@
 					<string>3B1226A3-FC77-49E3-B5A2-A1BCC9E1E0E5</string>
 					<string>F9DE5EA8-04C9-4BF5-AD88-829E8C34B1A1</string>
 					<string>------------------------------------</string>
-					<string>F7FAC662-AE5C-4935-8C93-BE7830134F44</string>
-					<string>ABC9E91A-6685-4728-AA57-A450ACA5BCA2</string>
-					<string>BA6B43EA-945F-405C-9004-E456DAF1FC7E</string>
 				</array>
 				<key>name</key>
 				<string>Model Summary Helpers</string>
 			</dict>
+
 			<key>68B85D52-17E5-41BF-8608-975921DED184</key>
 			<dict>
 				<key>items</key>
@@ -106,6 +138,7 @@
 			<dict>
 				<key>items</key>
 				<array>
+					<string>B81C235B-080D-43B2-90B0-58344A41FE8E</string>
 					<string>9BC004F0-B578-4626-978B-685F6A17CA87</string>
 					<string>55DE1239-EAF9-4BB1-9F3B-ECAE60206552</string>
 					<string>------------------------------------</string>
@@ -215,11 +248,11 @@
 			<dict>
 				<key>items</key>
 				<array>
-					<string>3861898B-1B44-4370-9BE6-82B6FF8C06F3</string>
-					<string>A9EF09A4-7D92-4A53-9583-21015BFCA4A6</string>
 					<string>8116DC80-BBBE-49F2-B774-CAC13A8DA9D6</string>
 					<string>EEEC5B5B-C1D1-4D1B-8E73-090B75983164</string>
 					<string>D9992455-B386-4208-9B8B-14018C63EA8B</string>
+					<string>A9EF09A4-7D92-4A53-9583-21015BFCA4A6</string>
+					<string>3861898B-1B44-4370-9BE6-82B6FF8C06F3</string>
 					<string>D5566D41-D854-4E88-859E-1A1D5C45D3F9</string>
 					<string>B7E6E5CF-0B5F-4EBD-AA88-C7F10F66CF5A</string>
 					<string>5F3995B3-9D6E-4D2D-92D7-9CDEE0CEB6A2</string>
@@ -232,13 +265,6 @@
 			<dict>
 				<key>items</key>
 				<array>
-					<string>CD966474-B076-42AC-9FFA-48655E22A7DC</string>
-					<string>------------------------------------</string>
-					<string>C903C77B-C726-47E1-8FB2-9F90DFE6B763</string>
-					<string>------------------------------------</string>
-					<string>5A1C3792-81BA-413D-AB43-9DED29F22E18</string>
-					<string>CC54EBCC-8BE6-4105-931B-999242396406</string>
-					<string>------------------------------------</string>
 					<string>3E68A059-BC93-460B-8830-ACA607EBBB85</string>
 					<string>6BE1E112-B0F3-4B52-829F-592E06718513</string>
 					<string>BFF5BED5-442C-4D2C-A893-7170FD9F0964</string>
@@ -246,10 +272,17 @@
 					<string>56B8C7DA-72D8-4266-B0FF-968423C2884D</string>
 					<string>2E5B98BE-8970-4C84-8106-8E165DAC36F9</string>
 					<string>------------------------------------</string>
+					<string>CD966474-B076-42AC-9FFA-48655E22A7DC</string>
+					<string>------------------------------------</string>
+					<string>C903C77B-C726-47E1-8FB2-9F90DFE6B763</string>
+					<string>------------------------------------</string>
+					<string>5A1C3792-81BA-413D-AB43-9DED29F22E18</string>
+					<string>CC54EBCC-8BE6-4105-931B-999242396406</string>
+					<string>------------------------------------</string>
 					<string>22156C25-D4AC-4F86-990D-DE1AE792C78F</string>
 				</array>
 				<key>name</key>
-				<string>GraphViz</string>
+				<string>Plot and GraphViz</string>
 			</dict>
 		</dict>
 	</dict>

@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>umxReportTime(${1:fit1}${, formatStr = "H %H M %M S %OS3", tz = "GMT"})</string>
+	<string>umx_get_time(${1:fit1}${, formatStr = "todo", tz = "GMT"})</string>
 	<key>name</key>
-	<string>umxReportTime</string>
+	<string>umx_get_time</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>

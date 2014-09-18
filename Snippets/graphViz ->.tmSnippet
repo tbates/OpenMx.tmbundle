@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>-&gt; </string>
 	<key>name</key>
-	<string>graphViz -&gt;</string>
+	<string>-&gt; to graphviz arrow</string>
 	<key>scope</key>
 	<string>source.dot</string>
 	<key>tabTrigger</key>
