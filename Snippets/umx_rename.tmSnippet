@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>$1 = umx_rename(${1:df}, replace = c(${2:oldName} ="${3:$2"))</string>
+	<key>name</key>
+	<string>umx_rename</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>umx_</string>
+	<key>uuid</key>
+	<string>2B853054-EF09-4DE3-B434-489065A264BD</string>
+</dict>
+</plist>
