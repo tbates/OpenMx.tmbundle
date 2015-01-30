@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>fit$6 = umxIP("${1:full_Independent}", selDVs = ${2:selDVs}, dzData = ${3:dzData}, mzData = ${4:mzData}, freeLowerA = T);
-fit$6 = mxRun(fit$6, ${7:intervals=F});
-umxSummaryIP(fit$6, $2, accuracy=2, dotFilename=${8|NA,"name"|}, returnStd= F);</string>
+	<string>ip_$1 = umxIP("ip_${1:1}", selDVs = selDVs, ${2:suffix = "_T", }dzData = dzData, mzData = mzData, nFac = ${3:1});
+ip_$1 = mxRun(ip_$1${4:, intervals=${5|T,F|}});
+umxSummary(ip_$1, digits=2, dotFilename=${6|NA,"name"|});</string>
 	<key>name</key>
 	<string>umxIP()</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
-	<string>umx</string>
+	<string>umxIP</string>
 	<key>uuid</key>
 	<string>D9992455-B386-4208-9B8B-14018C63EA8B</string>
 </dict>
