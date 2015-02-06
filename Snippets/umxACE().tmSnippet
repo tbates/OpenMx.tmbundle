@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>fit${1:1} = umxACE(selDVs = ${2:selDVs}, dzData = ${3:dzData}, mzData = ${4:mzData}${6:,dzr=.25});
-fit$1 = mxRun(fit$1 ${7:, intervals=${8:F}});
-umxSummaryACE(fit$1, ${9:, accuracy=${10:3}}, dotFilename=${11|NA,"name"|}${12:,returnStd=F})</string>
+	<string>ace_$1 = umxIP("ace_${1:1}", selDVs = selDVs, ${2:suffix = "_T", }dzData = dzData, mzData = mzData, nFac = ${3:1});
+ace_$1 = mxRun(ace_$1${4:, intervals=${5|T,F|}});
+umxSummary(ace_$1, digits=2, dotFilename=${6|NA,"name"|});</string>
 	<key>name</key>
 	<string>umxACE()</string>
 	<key>scope</key>
