@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>$3 = umx_residualize(var = ${1:IQ}, covs = c("${2:age}"), suffixes, c("_T1", "_T2"), data = ${3:twinData})</string>
+	<key>name</key>
+	<string>umx_residualise (var = cov=</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>umx_</string>
+	<key>uuid</key>
+	<string>14F2BCE9-A8B3-4424-9C64-44BC7F36CCC5</string>
+</dict>
+</plist>
