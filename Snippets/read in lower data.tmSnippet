@@ -3,8 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>require(sem)
-${1:data} = read.moments(file = "", diag = T)
+	<string>${1:data} = sem::readMoments(file = "", diag = TRUE)
 1
 ${2:.3 1
 .4 .35 1}</string>
