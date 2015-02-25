@@ -5,18 +5,15 @@
 	<key>content</key>
 	<string>require(OpenMx)
 data(demoOneFactor)
-latents  = c("G")
+latents = c("G")
 manifests = names(demoOneFactor)
-m1 &lt;- umxRAM("One Factor", data = umxData(cov(demoOneFactor), type = "cov", numObs = 500),
+m1 &lt;- umxRAM("OneFactor", data = mxData(cov(demoOneFactor), type = "cov", numObs = 500),
 	umxPath(latents, to = manifests),
 	umxPath(var = manifests),
 	umxPath(var = latents, fixedAt = 1)
 )
 m1 = mxRun(m1)
-umxSummary(m1, show = "std")
-
-${1:m1} = umxRAM("${2:my_model}", exog.variances = ${3|FALSE,TRUE|}, endog.variances = ${4|TRUE,FALSE|}, fix = "${5|none,latents,firstLoadings|}", data = ${6:myDF}${7:, latentVars = ${8:c("A"")}, independent = NA, remove_unused_manifests = ${3|TRUE,FALSE|}})
-</string>
+umxSummary(m1, showEstimates = "std")</string>
 	<key>name</key>
 	<string>umxRAM</string>
 	<key>scope</key>
