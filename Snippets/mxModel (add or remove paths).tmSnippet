@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>fit${2:$1} &lt;- mxModel(fit${1:1}, ${3:mxp} )
-$2 = umxRun($2, setLabels = T, setStart = T)
+	<string>${2:$1} &lt;- mxModel(${1:fit1}, ${3:mxp} )
+$2 = umxRun($2${4:, setLabels = T, setStart = T})
 umxSummary($2)
 </string>
 	<key>name</key>
-	<string>mxModel (add or remove paths)</string>
+	<string>Add or remove path from model</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>

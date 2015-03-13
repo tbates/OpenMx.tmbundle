@@ -28,12 +28,11 @@
 				<key>items</key>
 				<array>
 					<string>DE97BFF1-74A6-419E-A3B6-6CD3931818FA</string>
-					<string>B81C235B-080D-43B2-90B0-58344A41FE8E</string>
 					<string>82D1333F-4040-4706-AC7C-67616FF24C49</string>
 					<string>DC49DFC7-3FFB-4426-8741-BDD501731062</string>
-					<string>FFDEF4C4-29D4-4384-B298-1F9564E74F9B</string>
 					<string>1F1EC597-2E01-49C4-8A37-75B770EF576D</string>
 					<string>BD739159-0C1A-49D8-BBA1-5E01B79129A9</string>
+				
 					<string>------------------------------------</string>
 					<string>421B0595-CAD4-46B2-B413-8A708390D84F</string>
 					<string>D07C20C0-8091-40F0-A62D-7EA458DE0E20</string>
@@ -53,6 +52,7 @@
 					<string>583C0CC4-36ED-4EFE-8892-0900C6B48BF0</string>
 					<string>BE738D3A-555A-4869-9304-A103ED7B1A17</string>
 					<string>33576E93-7F94-4C32-BC42-7D863B6B84A8</string>
+					<string>FFDEF4C4-29D4-4384-B298-1F9564E74F9B</string>
 				</array>
 				<key>name</key>
 				<string>umxRAM helpers</string>
@@ -133,7 +133,7 @@
 					<string>B02F7F11-13CC-49A9-9ACB-1956663709E2</string>
 				</array>
 				<key>name</key>
-				<string>get and set</string>
+				<string>get and set parameters</string>
 			</dict>
 			<key>74341381-58A9-4B92-A944-27159B8F0F40</key>
 			<dict>
