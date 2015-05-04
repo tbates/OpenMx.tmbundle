@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>umx_apply(FUN=${1:mean}, to_each="${2|row,column|}", of_DF= ${3:df})</string>
+	<string>umx_apply(${1:mean}, of = ${3:df}, by = "${2|row,column|}")</string>
 	<key>name</key>
 	<string>umx_apply</string>
 	<key>scope</key>
