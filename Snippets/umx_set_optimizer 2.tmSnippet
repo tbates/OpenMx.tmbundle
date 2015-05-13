@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>umx_set_optimizer("${1|CSOLNP,NPSOL|}")</string>
 	<key>name</key>
-	<string>umx_set_optimizer</string>
+	<string>umx_set_optimizer _</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
