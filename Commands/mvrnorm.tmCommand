@@ -34,7 +34,7 @@ myCovariance = matrix(nrow = 3, ncol = 3, byrow = T, c(
 	<key>inputFormat</key>
 	<string>text</string>
 	<key>name</key>
-	<string>mvrnorm</string>
+	<string>data: mvrnorm</string>
 	<key>outputCaret</key>
 	<string>afterOutput</string>
 	<key>outputFormat</key>
