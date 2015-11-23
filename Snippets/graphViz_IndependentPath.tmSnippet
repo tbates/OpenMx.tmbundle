@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>umxPlotIP(${1:fit1}, selDVs = ${2:selDVs}, dotFilename = ${3|NA,"name"|}})</string>
+	<string>umxPlotIP(${1:fit1}, dotFilename = ${3|NA,"name"|}})</string>
 	<key>name</key>
 	<string>umxPlotIP(model,selDVs)</string>
 	<key>scope</key>

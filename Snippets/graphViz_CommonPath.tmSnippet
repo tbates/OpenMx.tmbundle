@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>umxPlotCP(${1:fit}, selDVs = ${2:selDVs}, dotFilename = ${3|NA,"name"|}})
+	<string>umxPlotCP(${1:fit}, dotFilename = ${3|NA,"name"|}})
 </string>
 	<key>name</key>
 	<string>umxPlotCP(model, selDVs...)</string>
