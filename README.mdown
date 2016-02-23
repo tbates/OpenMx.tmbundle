@@ -1,3 +1,12 @@
+https://github.com/tbates/OpenMx.tmbundle
+# OpenMx.tmbundle
+
+This bundle provides support for the `umx` and `OpenMx` packages for structural equation modelling
+
+The bundle provides commands and snippets that help building, modifying, and generating reports from SEM models.
+
+It includes high-level functions for complex models such as multi-group twin models, as well as for graphical model output.
+
 # Installation
 
 You can install this bundle in TextMate by opening the preferences and going to the bundles tab. After installation it will be automatically updated for you.
@@ -10,11 +19,8 @@ You can install this bundle in TextMate by opening the preferences and going to 
 
 # License
 
-If not otherwise specified (see below), files in this repository fall under the following license:
+[CC BY 2.0](http://creativecommons.org/licenses/by/2.0/)
 
-	Permission to copy, use, modify, sell and distribute this
-	software is granted. This software is provided "as is" without
-	express or implied warranty, and with no claim as to its
-	suitability for any purpose.
+Cite this as 
+[Timothy C. Bates](https://scholar.google.co.uk/citations?user=5MDWBs8AAAAJ&hl=en) (2016). "OpenMx.tmbundle" https://github.com/tbates/OpenMx.tmbundle
 
-An exception is made for files in readable text which contain their own license information, or files where an accompanying file exists (in the same directory) with a “-license” suffix added to the base-name name of the original file, and an extension of txt, html, or similar. For example “tidy” is accompanied by “tidy-license.txt”.
