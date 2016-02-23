@@ -8,7 +8,7 @@
 ${2:.3 1
 .4 .35 1}</string>
 	<key>name</key>
-	<string>read in lower data</string>
+	<string>Read in Lower Data</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>

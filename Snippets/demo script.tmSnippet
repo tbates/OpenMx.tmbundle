@@ -19,7 +19,7 @@
 #      $2 -- `date +%Y-%m-%d` initial creation
 # -----------------------------------------------------------------------------</string>
 	<key>name</key>
-	<string>demo script header</string>
+	<string>Demo Script Header</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>

@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>${1:data}[upper.tri($1, diag=${2|T,F|})] = t($1)[lower.tri(t($1), diag=$2)]</string>
+	<string>$1 = umx_lower2full(${1:lower.data}, diag = ${2|T,F|}), byrow = ${3|T,F|}), dimnames = NULL)</string>
 	<key>name</key>
-	<string>lower or upper to full</string>
+	<string>Lower Matrix to Full</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
-	<string>2full</string>
+	<string>umx_d</string>
 	<key>uuid</key>
 	<string>E421BFB7-7E4E-4A5F-AD64-EFFCE42A15D6</string>
 </dict>

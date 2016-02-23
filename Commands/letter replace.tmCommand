@@ -52,15 +52,23 @@ foreach ($aIn as $key =&gt; $input) {
 echo $output;</string>
 	<key>input</key>
 	<string>selection</string>
+	<key>inputFormat</key>
+	<string>text</string>
 	<key>keyEquivalent</key>
 	<string>^q</string>
 	<key>name</key>
-	<string>letter replace</string>
-	<key>output</key>
-	<string>replaceSelectedText</string>
+	<string>Simplify Code</string>
+	<key>outputCaret</key>
+	<string>heuristic</string>
+	<key>outputFormat</key>
+	<string>text</string>
+	<key>outputLocation</key>
+	<string>replaceInput</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>uuid</key>
 	<string>32082B4E-B26D-46F8-8EFA-63053804A9F3</string>
+	<key>version</key>
+	<integer>2</integer>
 </dict>
 </plist>
