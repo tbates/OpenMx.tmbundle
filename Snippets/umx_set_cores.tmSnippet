@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>umx_set_cores(${1:omxDetectCores() - 1}${2:, model = ${3:NULL}})
+	<string>umx_set_cores(${1|NA,omxDetectCores() - 1}|)
 </string>
 	<key>name</key>
 	<string>umx_set_cores</string>

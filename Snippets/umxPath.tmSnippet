@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>umxPath(${1|var,cov,unique.bivariate,means,v1m0|} = c(${2:})${3:, ${4|fixedAt,firstAt|} = ${5:1}})</string>
+	<string>umxPath(${1|var,cov,unique.bivariate,means,v1m0,v.m.|} = c(${2:})${3:, ${4|fixedAt,firstAt|} = ${5:1}})</string>
 	<key>name</key>
 	<string>umxPath(var/cov/unique)</string>
 	<key>scope</key>

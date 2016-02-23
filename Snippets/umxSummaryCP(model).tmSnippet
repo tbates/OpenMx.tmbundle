@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>umxSummaryCP(${1:fit},${2:,accuracy=${3:2}, dotFilename=${4|"name",NA|}${5:,showRg=T}${5:,returnStd=T}})</string>
+	<string>umxSummaryCP(${1:fit},${2:,digits = ${3:2}, dotFilename=${4|"name",NA|}${5:,showRg=T}${5:,returnStd=T}})</string>
 	<key>name</key>
 	<string>umxSummaryCP(model)</string>
 	<key>scope</key>

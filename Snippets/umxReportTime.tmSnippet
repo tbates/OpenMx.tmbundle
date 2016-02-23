@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>umx_get_time(${1:fit1}${, formatStr = "todo", tz = "GMT"})</string>
+	<string>umx_time(${1:fit1}${, formatStr = c("simple", "std", "custom %H %M %OS3"), tz = "GMT"})</string>
 	<key>name</key>
-	<string>umx_get_time</string>
+	<string>umx_time</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
-	<string>umxr</string>
+	<string>umx_</string>
 	<key>uuid</key>
 	<string>71CFAA15-21B3-4815-A36D-CC9AC7C88647</string>
 </dict>

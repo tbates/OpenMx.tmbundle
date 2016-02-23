@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>umx_grep(${1:df}, grepString = "${2:.*}", output="${3|both|}", ignore.case = ${4|T,F|})
+	<string>umx_grep(${1:df}, grepString = "${2:.*}", output="${3|both,label,name|}", ignore.case = ${4|T,F|}, useNames=F)
 </string>
 	<key>name</key>
 	<string>umx_grep labels</string>

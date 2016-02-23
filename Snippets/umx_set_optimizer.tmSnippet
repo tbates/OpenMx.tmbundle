@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>umx_set_optimizer("${1|CSOLNP,NPSOL|}")</string>
+	<string>umx_set_optimizer("${1|NA,SLSQP,CSOLNP,NPSOL|}")</string>
 	<key>name</key>
-	<string>umx_set_optimizer _s</string>
+	<string>umx_set_optimizer</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
-	<string>umx_s</string>
+	<string>umx_</string>
 	<key>uuid</key>
-	<string>E1D23CE4-F1EB-4F82-BA84-D6D58BC114FD</string>
+	<string>EAEF22D3-166D-4A4C-BB53-23C8217E2465</string>
 </dict>
 </plist>

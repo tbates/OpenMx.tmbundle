@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>$3 = umx_residualize(var = ${1:IQ}, covs = c("${2:age}"), suffixes, c("_T1", "_T2"), data = ${3:twinData})</string>
+	<string>${1:param} = match.arg($1)</string>
 	<key>name</key>
-	<string>umx_residualise (var = cov=</string>
+	<string>umx_default</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
-	<string>umx_</string>
+	<string>match</string>
 	<key>uuid</key>
-	<string>14F2BCE9-A8B3-4424-9C64-44BC7F36CCC5</string>
+	<string>56A73D6C-4E64-4F9F-BAD6-B32A7C6556BD</string>
 </dict>
 </plist>

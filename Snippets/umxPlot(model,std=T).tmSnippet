@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>umxPlot(${1:fit1}, std = ${2|T,F|}${3:, precision = ${4:2}, dotFilename = ${5|"name",NA|}${6:,  pathLabels = "${7|none,labels,both|}", showFixed = F}})</string>
 	<key>name</key>
-	<string>plot(model, std = T...)</string>
+	<string>plot(model, std = T,...)</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>

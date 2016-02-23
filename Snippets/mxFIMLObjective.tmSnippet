@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>mxFIMLObjective(covariance="${1:expectedCov}"), means="${2:expectedMeans}"), dimnames = NA, thresholds = NA)
+	<string>mxExpectationNormal(covariance="${1:expectedCov}"), means="${2:expectedMeans}"), dimnames = NA, thresholds = NA); mxFitFunctionML()
 </string>
 	<key>name</key>
 	<string>mxFIMLObjective</string>

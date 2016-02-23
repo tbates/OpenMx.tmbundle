@@ -23,4 +23,3 @@ You can install this bundle in TextMate by opening the preferences and going to 
 
 Cite this as 
 [Timothy C. Bates](https://scholar.google.co.uk/citations?user=5MDWBs8AAAAJ&hl=en) (2016). "OpenMx.tmbundle" https://github.com/tbates/OpenMx.tmbundle
-

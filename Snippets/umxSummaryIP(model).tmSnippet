@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>umxSummaryIP(${1:fit}${2:,accuracy=${3:2}, dotFilename=${4|"name",NA|}})</string>
+	<string>umxSummaryIP(${1:fit}${2:,digits = ${3:2}, dotFilename = ${4|"name",NA|}})</string>
 	<key>name</key>
 	<string>umxSummaryIP(model)</string>
 	<key>scope</key>

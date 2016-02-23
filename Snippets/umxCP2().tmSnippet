@@ -3,27 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>modelACE1 = twoGroupCholesky("${1:full}_ACE", selDVs=${2:selDVs}, dzData=${3:dzData}, mzData=${4:mzData}, nSib=${5:nSib});
-fitACE1   = mxRun(modelACE1 ${7:, intervals=${8:F}});
-summaryACEFit(fitACE1, selDVs=$2, dotFilename="$1_ACE.dot"${9:,returnStd=F})
+	<string>ACE1 = umxACE("${1:full}_ACE", selDVs=${2:selDVs}, dzData=${3:dzData}, mzData=${4:mzData});
+ACE1 = mxRun(ACE1 ${7:, intervals=${8:F}});
+umxSummaryACE(ACE1, dotFilename="names"${9:,returnStd=F})
 
-modelIP1 = twoGroupIndependentPath("$1_Independent", selDVs=$2, dzData=$3, mzData=$4, nSib=$5);
-fitIP1   = mxRun(modelIP1 $7);
-summaryIndependentFit(fitIP1, $2, dotFilename="$1_ind.dot" $9);
+IP1 = umxIP("$1_Independent", selDVs=$2, dzData=$3, mzData=$4);
+IP1   = mxRun(IP1 $7);
+umxSummaryIP(IP1, $2, dotFilename="name" $9);
 
-modelCP1 = twoGroupCommonPath("$1_CP", selDVs=$2, dzData=$3, mzData=$4, nSib=$5);
-fitCP1   = mxRun(modelCP1 $7);
-summaryCommonFit(fitCP1, $2, dotFilename="$1_common.dot" $9);
+CP1 = twoGroupCommonPath("$1_CP", selDVs=$2, dzData=$3, mzData=$4);
+CP1 = mxRun(CP1 $7);
+umxSummaryCP(fitCP1, $2, dotFilename="$1_common.dot" $9);
 
-
-mxCompare(fitACE1, c(fitIP1,fitCP1))
+mxCompare(ACE1, c(IP1, CP1))
 </string>
 	<key>name</key>
-	<string>twoGroupACE_IND_COMMON()</string>
+	<string>umxACE + IP + CP</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
-	<string>genepi</string>
+	<string>workflow</string>
 	<key>uuid</key>
 	<string>3861898B-1B44-4370-9BE6-82B6FF8C06F3</string>
 </dict>

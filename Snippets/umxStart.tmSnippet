@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>$1 = umxStart(${1:model})</string>
+	<string>$1 = umxValues(${1:m1}, onlyTouchZeros=F)</string>
 	<key>name</key>
-	<string>umxStart</string>
+	<string>umxValues</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
-	<string>umxs</string>
+	<string>umxv</string>
 	<key>uuid</key>
 	<string>BC4F1384-5467-4C4E-91F4-4782EA609451</string>
 </dict>

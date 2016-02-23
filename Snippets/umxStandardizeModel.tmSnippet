@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>umxStandardizeModel(${1:model}, return = "${2|parameters,matrices,model|}")</string>
+	<string>$1 = umx_standardize_RAM(${1:model}, return = "${2|parameters,matrices,model|}")</string>
 	<key>name</key>
-	<string>umxStandardizeModel</string>
+	<string>umx_standardize_RAM</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
