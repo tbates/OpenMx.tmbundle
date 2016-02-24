@@ -1,25 +1,27 @@
-https://github.com/tbates/OpenMx.tmbundle
 # OpenMx.tmbundle
 
-This bundle provides support for the `umx` and `OpenMx` packages for structural equation modelling
+![doi/10.5281/zenodo.46448](https://zenodo.org/badge/doi/10.5281/zenodo.46448.svg)
 
-The bundle provides commands and snippets that help building, modifying, and generating reports from SEM models.
+This bundle provides support for the `umx` and `OpenMx` packages for structural equation modelling.
 
-It includes high-level functions for complex models such as multi-group twin models, as well as for graphical model output.
+The bundle includes commands and snippets that help building, modifying, and generating reports from SEM models.
+
+It includes support for high-level functions for complex models such as multi-group twin models, as well as for graphical model output.
 
 # Installation
 
 You can install this bundle in TextMate by opening the preferences and going to the bundles tab. After installation it will be automatically updated for you.
 
-# General
+# Contributing code
+The bundle master lives here https://github.com/tbates/OpenMx.tmbundle
 
 * [Bundle Styleguide](http://kb.textmate.org/bundle_styleguide) — _before you make changes_
-* [Commit Styleguide](http://kb.textmate.org/commit_styleguide) — _before you send a pull request_
 * [Writing Bug Reports](http://kb.textmate.org/writing_bug_reports) — _before you report an issue_
+* [Commit Styleguide](http://kb.textmate.org/commit_styleguide) — _before you send a pull request_
 
 # License
 
 [CC BY 2.0](http://creativecommons.org/licenses/by/2.0/)
 
 Cite this as 
-[Timothy C. Bates](https://scholar.google.co.uk/citations?user=5MDWBs8AAAAJ&hl=en) (2016). "OpenMx.tmbundle" https://github.com/tbates/OpenMx.tmbundle
+[Timothy C. Bates](https://scholar.google.co.uk/citations?user=5MDWBs8AAAAJ&hl=en) (2016). "OpenMx.tmbundle" https://github.com/tbates/OpenMx.tmbundle doi/10.5281/zenodo.46448
