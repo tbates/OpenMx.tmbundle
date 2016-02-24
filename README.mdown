@@ -2,11 +2,8 @@
 
 ![doi/10.5281/zenodo.46448](https://zenodo.org/badge/doi/10.5281/zenodo.46448.svg)
 
-This bundle provides support for the `umx` and `OpenMx` packages for structural equation modelling.
-
-The bundle includes commands and snippets that help building, modifying, and generating reports from SEM models.
-
-It includes support for high-level functions for complex models such as multi-group twin models, as well as for graphical model output.
+Commands and snippets giving access to `umx` and `OpenMx` R packages for building, modifying, and summarizing structural equation models (SEM).
+Includes support multi-group twin models, as well as for graphical model output.
 
 # Installation
 
