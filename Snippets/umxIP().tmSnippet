@@ -4,7 +4,6 @@
 <dict>
 	<key>content</key>
 	<string>ip_$1 = umxIP("ip_${1:1}", selDVs = selDVs, ${2:suffix = "_T", }dzData = dzData, mzData = mzData, nFac = ${3:1});
-ip_$1 = mxRun(ip_$1${4:, intervals=${5|T,F|}});
 umxSummary(ip_$1, digits=2, dotFilename=${6|NA,"name"|});</string>
 	<key>name</key>
 	<string>umxIP()</string>

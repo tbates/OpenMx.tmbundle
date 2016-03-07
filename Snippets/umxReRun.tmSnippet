@@ -5,11 +5,11 @@
 	<key>content</key>
 	<string>$1${5:$2} = umxReRun(${1:fit}${2:1}, update = umxGetParameters($1$2), regex = ${|TRUE,FALSE|}, name="${3:drop$1$2}"${4:,comparison = FALSE, free = F, value = 0, freeToStart = NA, verbose = F})</string>
 	<key>name</key>
-	<string>umxReRun</string>
+	<string>umxModify</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
-	<string>umxr</string>
+	<string>umxm</string>
 	<key>uuid</key>
 	<string>7FE4AD28-D255-4797-8BE8-0F0DF51A137E</string>
 </dict>

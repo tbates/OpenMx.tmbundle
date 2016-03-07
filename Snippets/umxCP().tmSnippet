@@ -4,7 +4,6 @@
 <dict>
 	<key>content</key>
 	<string>cp_$1 = umxCP("cp_${1:1}", selDVs = selDVs, ${2:suffix = "_T", }dzData = dzData, mzData = mzData, nFac = ${3:1});
-# cp_$1 = mxRun(cp_$1${4:, intervals=${5|T,F|}});
 umxSummary(cp_$1, digits=2, dotFilename=${6|"name",NA, NULL|});</string>
 	<key>name</key>
 	<string>umxCP()</string>

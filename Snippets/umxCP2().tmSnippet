@@ -4,16 +4,13 @@
 <dict>
 	<key>content</key>
 	<string>ACE1 = umxACE("${1:full}_ACE", selDVs=${2:selDVs}, dzData=${3:dzData}, mzData=${4:mzData});
-ACE1 = mxRun(ACE1 ${7:, intervals=${8:F}});
-umxSummaryACE(ACE1, dotFilename="names"${9:,returnStd=F})
+umxSummary(ACE1, dotFilename="name")
 
 IP1 = umxIP("$1_Independent", selDVs=$2, dzData=$3, mzData=$4);
-IP1   = mxRun(IP1 $7);
-umxSummaryIP(IP1, $2, dotFilename="name" $9);
+umxSummary(IP1, $2, dotFilename="name");
 
 CP1 = twoGroupCommonPath("$1_CP", selDVs=$2, dzData=$3, mzData=$4);
-CP1 = mxRun(CP1 $7);
-umxSummaryCP(fitCP1, $2, dotFilename="$1_common.dot" $9);
+umxSummary(fitCP1, $2, dotFilename="name");
 
 mxCompare(ACE1, c(IP1, CP1))
 </string>
