@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>umx_lower2full(${1:lower.data}, diag = ${2|T,F|}, byrow = ${3|T,F|}, dimnames = NULL)</string>
+	<key>name</key>
+	<string>umx_lower2full</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>umx_</string>
+	<key>uuid</key>
+	<string>238D2B83-A4B3-4BB4-9AE0-C58F60A739EA</string>
+</dict>
+</plist>
