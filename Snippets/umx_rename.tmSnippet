@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>$1 = umx_rename(${1:df}, replace = c(${2:oldName} ="${3:$2"))</string>
+	<string>$1 = umx_rename(${1:df}, replace = c(${2:oldName} ="${3:$2}")</string>
 	<key>name</key>
 	<string>umx_rename</string>
 	<key>scope</key>
