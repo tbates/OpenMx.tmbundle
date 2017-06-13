@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>umxPlot(${1:fit1}, std = ${2|T,F|}${3:, precision = ${4:2}, dotFilename = ${5|"name",NA|}${6:,  pathLabels = "${7|none,labels,both|}", showFixed = F}})</string>
+	<string>umxPlot(${1:fit1}, std = ${2|T,F|}${3:, digits = ${4:2}, dotFilename = ${5|"name",NA|}${6:,  pathLabels = "${7|none,labels,both|}", means = T, showFixed = F}})</string>
 	<key>name</key>
 	<string>plot(model, std = T,...)</string>
 	<key>scope</key>

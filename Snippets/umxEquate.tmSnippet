@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>$1 = umxEquate(${1:model}, master="${2:am}", slave="${3:af}", free = ${4|T,NA,F|}, verbose=${5|T,F|}, name=${6:$1newName})</string>
+	<string>$1 = umxEquate(${1:model}, master="${2:am}", slave="${3:af}", free = ${4|T,F,NA|}, verbose=${5|T,F|}, name=${6:$1newName})</string>
 	<key>name</key>
 	<string>umxEquate</string>
 	<key>scope</key>

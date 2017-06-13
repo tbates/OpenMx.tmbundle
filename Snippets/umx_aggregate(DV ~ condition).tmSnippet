@@ -3,15 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>umx_set_cores(${1|NA,omxDetectCores() - 1|})
-</string>
+	<string>umx_aggregate(${1:DV ~ condition}, data = ${2:df}, what = "${3|mean_sd,n|}", digits = 2, kable = TRUE)</string>
 	<key>name</key>
-	<string>umx_set_cores</string>
+	<string>umx_aggregate(DV ~ condition)</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
-	<string>umx_</string>
+	<string>umx_a</string>
 	<key>uuid</key>
-	<string>8A85693C-7341-42D1-9221-D5C7946C954A</string>
+	<string>CC372687-465E-411E-A857-2864E3A22D89</string>
 </dict>
 </plist>

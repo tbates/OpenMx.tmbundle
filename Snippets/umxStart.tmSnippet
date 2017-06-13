@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>$1 = umxValues(${1:m1}, onlyTouchZeros=F)</string>
+	<string>$1 = umxValues(${1:m1}, onlyTouchZeros = FALSE)</string>
 	<key>name</key>
 	<string>umxValues</string>
 	<key>scope</key>
