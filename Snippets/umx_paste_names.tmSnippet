@@ -3,7 +3,8 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>umx_paste_names(${1:varNames}, textConstant = ${2:"_T"}, suffixes= ${3:1:2})</string>
+	<string>umx_paste_names(${1:varNames}, sep = ${2:"_T"}, suffixes= ${3:1:2})
+</string>
 	<key>name</key>
 	<string>umx_paste_names</string>
 	<key>scope</key>
