@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>$1 = umx_default_option(${1:x}, ${2:option_list}, check = ${3|TRUE,FALSE|})</string>
+	<string>$1 = umx_match.arg(${1:x}, ${2:option_list}, check = ${3|TRUE,FALSE|})</string>
 	<key>name</key>
-	<string>umx_default_option</string>
+	<string>umx_match.arg</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
