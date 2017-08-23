@@ -13,7 +13,7 @@ umxPlotGxE($2fit$3, selDefs, mzData, dzData, location="topleft")
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
-	<string>umx</string>
+	<string>umxGxE</string>
 	<key>uuid</key>
 	<string>A9EF09A4-7D92-4A53-9583-21015BFCA4A6</string>
 </dict>

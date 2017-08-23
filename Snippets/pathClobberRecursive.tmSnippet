@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>pathClobberRecursive(${1:model}, {2:path})</string>
 	<key>name</key>
-	<string>pathClobberRecursive (droppath)</string>
+	<string>pathClobberRecursive (drop path)</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>

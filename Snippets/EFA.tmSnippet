@@ -19,7 +19,7 @@ plot($4)</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
-	<string>efa</string>
+	<string>umxEFA</string>
 	<key>uuid</key>
 	<string>B7E6E5CF-0B5F-4EBD-AA88-C7F10F66CF5A</string>
 </dict>
