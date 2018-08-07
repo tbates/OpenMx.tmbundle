@@ -3,14 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>mxData(observed=${1:dataFrame or matrix}, type="${2|raw,cov,cor,sscp|}", ${3:means = ${4:expMeans}}{5:, numObs = ${6:nnn})
-</string>
+	<string>mxData(${1:df}, type="${2|raw,cov,cor,sscp|}"${3:, numObs=nrow($1)})</string>
 	<key>name</key>
 	<string>mxData</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
-	<string>mxd</string>
+	<string>mxData</string>
 	<key>uuid</key>
 	<string>E9F6838C-B2B4-493E-895A-C01362EAC968</string>
 </dict>
