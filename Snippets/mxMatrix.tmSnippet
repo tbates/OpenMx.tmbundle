@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>mxMatrix("${1|Full,Diag,Iden,Lower,Sdiag,Stand,Symm,Unit,Zero|}", ${2:nrow=nVar}, ${3:ncol=nVar}, free=${4|T,F|}, values=${5:0}${6:, label=${7:labels},  ${8:dimnames=list(${9:rowList, columnList})}}${10:, byrow=T}, name="${11:expMean}")</string>
+	<string>umxMatrix("${1:myName}", "${2|Full,Diag,Iden,Lower,Sdiag,Stand,Symm,Unit,Zero|}", ${3:nrow=nVar}, ${4:ncol=nVar}, free=${5|TRUE,FALSE|}, values=${6:0}${7:, label=${8:labels},  ${9:dimnames=list(rowList, columnList})}${10:, byrow=TRUE})</string>
 	<key>name</key>
 	<string>mxMatrix(type=…)</string>
 	<key>scope</key>

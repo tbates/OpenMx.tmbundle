@@ -4,8 +4,8 @@
 <dict>
 	<key>content</key>
 	<string>fit$1 = mxModel("fit${1:1}",
-	mxMatrix(name="a", "Full", nrow=${2:1}, ncol=${3:$2}, free=T, values=1),
-	mxMatrix(name="b", "Full", nrow=$2, ncol=$3, free=T, values=1),
+	umxMatrix("a", "Full", nrow=${2:1}, ncol=${3:$2}, free=TRUE, values=1),
+	umxMatrix("b", "Full", nrow=$2, ncol=$3, free=TRUE, values=1),
 	mxAlgebra(a %*% b, name="${4:ab}"),
 	mxConstraint($4 ==35, name = "maxHours"),
 	mxFitFunctionAlgebra(algebra="$4", numObs= NA, numStats=NA)
