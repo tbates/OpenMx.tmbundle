@@ -3,14 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>umx_paste_names(${1:varNames}, sep = ${2:"_T"}, suffixes= ${3:1:2})
-</string>
+	<string>tvars(${1:varNames}, sep = ${2:"_T"}${3:, suffixes= ${4:1:2}, covNames=, prefix=})</string>
 	<key>name</key>
 	<string>umx_paste_names</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
-	<string>umx_</string>
+	<string>tvars</string>
 	<key>uuid</key>
 	<string>4070617C-54F9-473E-A629-862E06A61A12</string>
 </dict>

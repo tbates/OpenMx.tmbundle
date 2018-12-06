@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>umx_time(${1:fit1}${, formatStr = c("simple", "std", "custom %H %M %OS3"), tz = "GMT"})</string>
+	<string>umx_time(${1|m1,'start','stop','lap'|}${2:, formatStr = "${3|simple,std,custom %H %M %OS3|}"), tz = "GMT"})</string>
 	<key>name</key>
 	<string>umx_time</string>
 	<key>scope</key>
