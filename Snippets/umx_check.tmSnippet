@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>umx_check(${1:TRUE==TRUE}, ${2|stop,warning,message|}, "${3:check failed}")</string>
+	<string>umx_check(${1:TRUE==TRUE}, "${2|stop,warning,message|}", "${3:check failed}")</string>
 	<key>name</key>
 	<string>umx_check</string>
 	<key>scope</key>
