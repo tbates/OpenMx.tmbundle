@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>$1 = umxRun(${1:fit1}${2:,setLabels=T, setStart = T})
+	<string>$1 = umxRun(${1:fit1}${2:, setLabels = TRUE, setValues = TRUE})
 ${3:umxSummary($1)}</string>
 	<key>name</key>
 	<string>umxRun</string>
