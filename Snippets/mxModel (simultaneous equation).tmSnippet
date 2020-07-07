@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>fit1 = mxModel("fit1",
-	mxMatrix(name="hours"        , values=1   , free=T, type="Full", nrow=1, ncol=1),
-	mxMatrix(name="fixedCosts"   , values=730 , free=F, type="Full", nrow=1, ncol=1),
-	mxMatrix(name="payRate"      , values=5.85 , free=F, type="Full", nrow=1, ncol=1),
-	mxMatrix(name="chargeOutRate", values=8.15, free=F, type="Full", nrow=1, ncol=1),
-	mxAlgebra(name="revenue"    , expression = chargeOutRate * hours),
-	mxAlgebra(name="expenditure", expression = fixedCosts + (payRate * hours)),
-	mxAlgebra(name="profit"     , expression = revenue - expenditure),
-	mxConstraint(hours ==35, name = "maxHours"),
-	mxAlgebraObjective(algebra="profit", numObs= NA, numStats=NA)
-)</string>
+	<string>m1 = mxRun(mxModel("sym_eq",
+	# 1. declare variables
+	umxMatrix("large"  , "Full", values=10, free=TRUE, nrow=1, ncol=1),
+	# umxMatrix("small", "Full", values=10, free=TRUE, nrow=1, ncol=1),
+	# 1. define equations
+	# umxConstrainedAlgebra("total", large + small, 49) # total_constraint
+	mxAlgebra(name="small" , large + 36),
+	mxConstraint(large+small == 49, name = "tot"),
+	mxFitFunctionAlgebra("small")
+))
+parameters(m1)</string>
 	<key>name</key>
 	<string>mxModel (simultaneous equation)</string>
 	<key>scope</key>
