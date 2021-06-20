@@ -8,11 +8,12 @@ data(demoOneFactor)
 latents   = c("g")
 manifests = names(demoOneFactor)
 myData    = mxData(cov(demoOneFactor), type = "cov", numObs = 500)
-m1 &lt;- umxRAM("OneFactor", data = myData,
+m1 = umxRAM("OneFactor", data = myData,
 	umxPath(latents, to = manifests),
 	umxPath(var = manifests),
 	umxPath(var = latents, fixedAt = 1)
 )
+
 umxSummary(m1, showEstimates = "std")
 plot(m1)</string>
 	<key>name</key>
