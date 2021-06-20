@@ -5,16 +5,14 @@
 	<key>content</key>
 	<string>require(umx)
 data(demoOneFactor)
-latents   = c("g")
-manifests = names(demoOneFactor)
-myData    = mxData(cov(demoOneFactor), type = "cov", numObs = 500)
-m1 &lt;- umxRAM("OneFactor", data = myData,
+latents   = "g"
+m1 = umxRAM("OneFactor", data demoOneFactor,
 	umxPath(latents, to = manifests),
-	umxPath(var = manifests),
-	umxPath(var = latents, fixedAt = 1)
+	umxPath(v.m. = manifests),
+	umxPath(v1m0 = latents1)
 )
-umxSummary(m1, showEstimates = "std")
-plot(m1)</string>
+umxSummary(m1, std=TRUE)
+plot(m1, means = FALSE)</string>
 	<key>name</key>
 	<string>umxRAM</string>
 	<key>scope</key>

@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>umxSummaryACE(${1:fit}, dotFilename = "${2|name,NA|}", comparison = "${3|name,NULL|}", CIs = F, ${4:, accuracy=${5:2}, showStd = T, returnStd = T, showRg = F, extended = F})</string>
+	<string>umxSummary(${1:m2}, std=${2|TRUE,FALSE|}, means=${3|FALSE,TRUE|}, resid= ${4|FALSE,TRUE|})</string>
 	<key>name</key>
-	<string>umxSummaryACE(model,...)</string>
+	<string>umxSummary(ram1, std, means, resid)</string>
 	<key>scope</key>
 	<string>source.r</string>
 	<key>tabTrigger</key>
 	<string>umxs</string>
 	<key>uuid</key>
-	<string>F9DE5EA8-04C9-4BF5-AD88-829E8C34B1A1</string>
+	<string>5A16EA67-7095-435A-8B95-93D77F015366</string>
 </dict>
 </plist>
