@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>umx_score_scale(name="$1_scale", base="${1:abc}",pos=${3:c(1,2,3)},rev=${4:c(1,2,3)},min=1,max=5,data=df,score="mean",na.rm=TRUE,alpha=TRUE)</string>
+	<key>name</key>
+	<string>umx_score_scale</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>umx_</string>
+	<key>uuid</key>
+	<string>583BD849-AEFC-4426-8AF2-57F9A63A75FC</string>
+</dict>
+</plist>
