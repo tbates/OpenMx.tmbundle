@@ -5,7 +5,7 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>#!/usr/bin/env php
+	<string>#!/usr/local/bin/php
 &lt;?php
 	$existing = fread(STDIN, 1024);
 	if ($existing != 3) {
