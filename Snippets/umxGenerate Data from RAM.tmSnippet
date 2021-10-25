@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>manifests = c("IQ1", "IQ2", "yrsEd")
+m1 = umxRAM("m1", data = manifests,
+	umxPath("IQ1", to = "IQ2", freeAt = .8),
+	umxPath("yrsEd", to = "IQ2", freeAt = .3),
+	umxPath("yrsEd", with = "IQ1", freeAt = .3),
+
+	umxPath(var = manifests, freeAt = 1),
+	umxPath(means = manifests, freeAt = 0)
+)
+plot(m1, means=F)
+
+tmp = mxGenerateData(m1, nrows = 1000)
+q1 = lm(IQ2 ~ IQ1 + yrsEd, data = tmp)
+umxAPA(q1)
+# (Intercept) B = -0.01 [-0.07, 0.05], t = -0.31, p = 0.754
+# IQ1 B = 0.78 [0.72, 0.85], t = 24.46, p &lt; 0.001
+# yrsEd B = 0.25 [0.19, 0.31], t = 8.01, p &lt; 0.001
+# R² = 0.47 (adj = 0.469)
+
+</string>
+	<key>name</key>
+	<string>umxGenerate Data from RAM</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>mxm</string>
+	<key>uuid</key>
+	<string>CB119A6A-93DE-44E2-8A7B-6FA7F1BC1D9D</string>
+</dict>
+</plist>

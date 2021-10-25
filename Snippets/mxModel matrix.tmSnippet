@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>$1 &lt;- mxModel("${1:baseModel or Name}",
 	$0
-	mxExpectationNormal(covariance="${2:expCov}", means="${3:expMeans}"${4:, dimnames = NA, thresholds = NA}),
+	mxExpectationNormal("${2:expCov}", means="${3:expMeans}"${4:, dimnames = NA, thresholds = NA}),
 	mxFitFunctionML()
 )
 $1 = mxRun($1); summary($1)</string>

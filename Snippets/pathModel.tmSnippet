@@ -5,22 +5,15 @@
 	<key>content</key>
 	<string>data(${1:myFADataRaw}, package="OpenMx")
 manifests = names($1)
-$1 = $1[, manifests]
 latents   = c(${2:"G"})
-$3 &lt;- mxModel("${3:m1}", type="RAM",
-	manifestVars = manifests,
-	latentVars   = latents,
+$3 = umxRAM("${3:m1}", data = $1, type= "cov",
 	# Factor loadings
-	mxPath(from = latents, to = manifests),
-	# Residuals and variances
-	mxPath(from = manifests, arrows = 2), # manifest residuals 
-	mxPath(from = latents, arrows = 2, free = F, values = 1), # latents fixed@1
-	mxData(cov($1, use="complete"), type = "cov", numObs = nrow($1))
-)
-$3 = umxRun($3, setLabels = T, setStart = T)
-umxSummary($3)
-
-</string>
+	umxPath(from = latents, to = manifests),
+	umxPath(from = c("x1", "x2"), to = "x3"), # manifest causes
+	# residuals and variances
+	umxPath(var = latents, fixedAt= 1), # latents fixed@1
+	umxPath(var = manifests, freeAt= .1) # manifest residual variance
+)</string>
 	<key>name</key>
 	<string>mxModel (pathic, data=cov )</string>
 	<key>scope</key>
