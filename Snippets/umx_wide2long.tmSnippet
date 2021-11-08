@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>tmp = umx_wide2long(data=df, sep="_T", verbose=TRUE)
+</string>
+	<key>name</key>
+	<string>umx_wide2long</string>
+	<key>scope</key>
+	<string>source.r</string>
+	<key>tabTrigger</key>
+	<string>umx_</string>
+	<key>uuid</key>
+	<string>2C2C7E6F-7EC8-4AC5-9881-696A2F1A6B20</string>
+</dict>
+</plist>
